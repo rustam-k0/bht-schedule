@@ -1495,11 +1495,11 @@
             ],
             "sources": [
               {
-                "file": "../software-engineering-2/track-1/02-seminars/a15-setup.png",
+                "file": "../software-engineering-2/track-1/02-seminars/homework-1-a15/technical/a15-setup.png",
                 "scope": "Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules"
               },
               {
-                "file": "../software-engineering-2/track-1/02-seminars/a15-setup/README.md",
+                "file": "../software-engineering-2/track-1/02-seminars/homework-1-a15/technical/README.md",
                 "scope": "Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a",
                 "updatedAt": "2026-10-07"
               }

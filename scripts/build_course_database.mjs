@@ -22,8 +22,8 @@ const enrichment={
     'Show each validation in the exercise class and record acceptance in the completion list. Moodle or email submissions are not accepted.',
    ],
    sources:[
-    source('../software-engineering-2/track-1/02-seminars/a15-setup.png','Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules'),
-    source('../software-engineering-2/track-1/02-seminars/a15-setup/README.md','Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a','2026-10-07'),
+    source('../software-engineering-2/track-1/02-seminars/homework-1-a15/technical/a15-setup.png','Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules'),
+    source('../software-engineering-2/track-1/02-seminars/homework-1-a15/technical/README.md','Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a','2026-10-07'),
    ],
   },
  },
