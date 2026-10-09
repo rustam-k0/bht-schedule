@@ -1,0 +1,24 @@
+lastochka.duckdns.org {
+	encode zstd gzip
+	reverse_proxy lastochka:3001
+}
+
+persepolis.152.53.101.9.nip.io, persepolisschule.duckdns.org {
+	encode zstd gzip
+	reverse_proxy persepolis:80
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+	}
+}
+
+bht-schedule.152.53.101.9.nip.io {
+	encode zstd gzip
+	reverse_proxy bht-schedule-site:80
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+	}
+}

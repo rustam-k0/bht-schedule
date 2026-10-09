@@ -1,0 +1,2089 @@
+{
+  "schemaVersion": 1,
+  "term": "Wintersemester 2026/27",
+  "generatedAt": "2026-10-08T15:24:55.430Z",
+  "description": "Subject and track details for Medieninformatik B.Sc., winter term 2026/27. Teacher rules take priority over handbook rules only for the stated track.",
+  "coverage": {
+    "subjects": 9,
+    "streams": 16,
+    "enrichedStreams": 10
+  },
+  "subjects": [
+    {
+      "moduleId": "mod-b6c0641708",
+      "modulNumber": "B02",
+      "name": "Grundlagen der Theoretischen Informatik",
+      "semester": 1,
+      "credits": 5,
+      "status": "Pflicht",
+      "workload": "68 class hours (2 lecture hours/week + 2 practice hours/week), 82 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "exam",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 100
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": null,
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Klausur (90 Minuten).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Klausur (90 Minuten)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Andrea Tomatis"
+          ],
+          "courses": [
+            {
+              "courseId": "course-fb19d8d71b",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Andrea Tomatis",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 301 Seminarraum",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-080af9ff23",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Andrea Tomatis",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 321 Seminarraum",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-080af9ff23",
+              "type": "exercise",
+              "parallelGroup": 6,
+              "teacher": "Andrea Tomatis",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "B 301 Seminarraum",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-080af9ff23",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Andrea Tomatis",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 321 Seminarraum",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Course and assessment rules from Prof. Dr. Sören Werth shared by both tracks",
+            "actualAssessment": {
+              "components": [
+                {
+                  "label": "Written exam",
+                  "percent": 90
+                },
+                {
+                  "label": "Practice",
+                  "percent": 10
+                }
+              ],
+              "passConditions": [
+                "At least 5 practice points are required to take the exam."
+              ],
+              "exam": {
+                "durationMinutes": 90,
+                "format": "Written exam in the first exam period",
+                "materialsAllowed": false
+              },
+              "secondExamPeriod": {
+                "durationMinutes": "20–25",
+                "format": "Oral exam",
+                "materialsAllowed": false,
+                "requirement": "At least 5 practice points"
+              }
+            },
+            "workloadRules": [
+              "Complete required practice tasks and submit them in Moodle.",
+              "The usual deadline is one week. One extra week covers illness or disability accommodations: two weeks at most.",
+              "Deadlines cannot be extended. Results from earlier terms do not count.",
+              "Spend at least 15 minutes on each task before practice. Use the sheets as practice exams."
+            ],
+            "keyFacts": [
+              "Topics: finite automata, regular expressions and languages, pushdown automata, grammars, context-free languages, Turing machines and undecidability.",
+              "Practice starts at 08:15.",
+              "Groups may merge if attendance repeatedly falls to 5 people or fewer.",
+              "Know at least the definitions for the second exam period. Register through the Moodle poll."
+            ],
+            "sources": [
+              {
+                "file": "../theoretical-cs/shared/source-extracts/organization-pages/organization.txt",
+                "scope": "Organization and assessment rules for GTI track 2",
+                "updatedAt": "2026-10-01"
+              }
+            ]
+          }
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Prof. Dr. Sören Werth"
+          ],
+          "courses": [
+            {
+              "courseId": "course-fb19d8d71b",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Sören Werth",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "10:00",
+                  "end": "11:30",
+                  "room": "B 321 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-080af9ff23",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Prof. Dr. Sören Werth",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 321 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-080af9ff23",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Prof. Dr. Sören Werth",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "08:00",
+                  "end": "09:30",
+                  "room": "B 321 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Course and assessment rules from Prof. Dr. Sören Werth shared by both tracks",
+            "actualAssessment": {
+              "components": [
+                {
+                  "label": "Written exam",
+                  "percent": 90
+                },
+                {
+                  "label": "Practice",
+                  "percent": 10
+                }
+              ],
+              "passConditions": [
+                "At least 5 practice points are required to take the exam."
+              ],
+              "exam": {
+                "durationMinutes": 90,
+                "format": "Written exam in the first exam period",
+                "materialsAllowed": false
+              },
+              "secondExamPeriod": {
+                "durationMinutes": "20–25",
+                "format": "Oral exam",
+                "materialsAllowed": false,
+                "requirement": "At least 5 practice points"
+              }
+            },
+            "workloadRules": [
+              "Complete required practice tasks and submit them in Moodle.",
+              "The usual deadline is one week. One extra week covers illness or disability accommodations: two weeks at most.",
+              "Deadlines cannot be extended. Results from earlier terms do not count.",
+              "Spend at least 15 minutes on each task before practice. Use the sheets as practice exams."
+            ],
+            "keyFacts": [
+              "Topics: finite automata, regular expressions and languages, pushdown automata, grammars, context-free languages, Turing machines and undecidability.",
+              "Practice starts at 08:15.",
+              "Groups may merge if attendance repeatedly falls to 5 people or fewer.",
+              "Know at least the definitions for the second exam period. Register through the Moodle poll.",
+              "Test: Mengen opened on 2026-10-05 at 14:03.",
+              "Some students may be reassigned to the other track because of capacity; individual allocation is not confirmed by this email."
+            ],
+            "sources": [
+              {
+                "file": "../theoretical-cs/shared/source-extracts/organization-pages/organization.txt",
+                "scope": "Organization and assessment rules for GTI track 2",
+                "updatedAt": "2026-10-01"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 67; Sun, 04 Oct 2026 02:13:02 +0200; Öffnet am Montag, 5. Oktober 2026, 14:03: Test: Mengen",
+                "updatedAt": "2026-10-08"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 84; Tue, 06 Oct 2026 16:46:04 +0200; TheoInf_WiSe26: [[welcometocourse]]",
+                "updatedAt": "2026-10-08"
+              }
+            ],
+            "deadlines": [
+              {
+                "date": "2026-10-19",
+                "label": "Test: Mengen — closes at 23:59; timezone not stated; Moodle activity 1510499",
+                "mandatory": true
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/01-schedule.mhtml",
+          "fragment": "Modul | 11428_106565 | Pflicht | empf. für das 1. Fachsemester | 0 von 5 Credits   (Eindeutige Bezeichnung: vinfo_m_11428_106565) | Grundlagen der Theoretischen Informatik | Veranstaltung | 143132 | Pflicht | empf. für das 1. Fachsemester"
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3f564d3c95",
+      "modulNumber": "B03",
+      "name": "Mediendesign Grundlagen",
+      "semester": 1,
+      "credits": 5,
+      "status": "Pflicht",
+      "workload": "68 class hours (2 lecture hours/week + 2 practice hours/week), 82 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "hybrid",
+        "components": [
+          {
+            "label": "Design exercises",
+            "percent": 75
+          },
+          {
+            "label": "Project",
+            "percent": 25
+          }
+        ],
+        "examDurationMinutes": null,
+        "courseworkScope": "20 hours of project work; exercise sheets every two weeks",
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 75% gestalterische Übungen (14-tägige Übungsblätter), 25% Projektarbeit (20 Stunden).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 75% gestalterische Übungen (14-tägige Übungsblätter), 25% Projektarbeit (20 Stunden)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Constanze Zahn"
+          ],
+          "courses": [
+            {
+              "courseId": "course-97a57d4879",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Constanze Zahn",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TU",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 412 Seminarraum",
+                  "dateStart": "2026-10-06",
+                  "dateEnd": "2027-02-09"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6c12b84777",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Constanze Zahn",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TU",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "B 420 Labor für PrePress und Publishing, MAC-Labor, PC Pool",
+                  "dateStart": "2026-10-06",
+                  "dateEnd": "2027-02-09"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6c12b84777",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Constanze Zahn",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TU",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 420 Labor für PrePress und Publishing, MAC-Labor, PC Pool",
+                  "dateStart": "2026-10-06",
+                  "dateEnd": "2027-02-09"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Email course details for track 1; Wintersemester 2026/27",
+            "keyFacts": [
+              "Zahn's overcrowded course does not offer individual projects this semester.",
+              "Higher-semester students may be moved to a late Tuesday exercise. The email says 19:00, while the timetable says 19:30; do not treat either as a confirmed revised meeting."
+            ],
+            "sources": [
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 77; Mon, 05 Oct 2026 18:55:36 +0000; !!! IHRE Belegung Mediendesign Grundlagen  im WS 26/27 Dienstags der höheren Semester wurde wg. Überfüllung von SU & Übungen auf die letzte Übung umverteilt....",
+                "updatedAt": "2026-10-08"
+              }
+            ]
+          }
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Cornelia Schiffers",
+            "Constanze Zahn"
+          ],
+          "courses": [
+            {
+              "courseId": "course-97a57d4879",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Cornelia Schiffers",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "MO",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 325 Seminarraum",
+                  "dateStart": "2026-10-05",
+                  "dateEnd": "2027-02-08"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6c12b84777",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Constanze Zahn",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TU",
+                  "start": "19:30",
+                  "end": "21:00",
+                  "room": "B 420 Labor für PrePress und Publishing, MAC-Labor, PC Pool",
+                  "dateStart": "2026-10-06",
+                  "dateEnd": "2027-02-09"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6c12b84777",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Cornelia Schiffers",
+              "registrationPeriod": "Anmeldung möglich von 01.10.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "MO",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 420 Labor für PrePress und Publishing, MAC-Labor, PC Pool",
+                  "dateStart": "2026-10-05",
+                  "dateEnd": "2027-02-08"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Track 2 lecture; practice rules are part of the overall assessment",
+            "actualAssessment": {
+              "components": [
+                {
+                  "label": "Talk and PDF",
+                  "percent": 30
+                },
+                {
+                  "label": "Attendance + participation",
+                  "percent": 20
+                },
+                {
+                  "label": "Project + presentation",
+                  "percent": 50
+                }
+              ],
+              "passConditions": [
+                "Submit and pass every exercise on time.",
+                "Tasks cannot be skipped or submitted later.",
+                "Pass every exercise to qualify for the final presentation."
+              ]
+            },
+            "deadlines": [
+              {
+                "date": "2027-02-01",
+                "label": "Final presentation",
+                "mandatory": true
+              },
+              {
+                "date": null,
+                "label": "Upload the talk PDF by 19:00 on the Sunday before your presentation",
+                "mandatory": true
+              },
+              {
+                "date": "2026-10-11",
+                "label": "Verbindliche Belegung des Moduls Mediendesign — due at 19:00; timezone not stated; activity 1521541",
+                "mandatory": true
+              }
+            ],
+            "coursePlan": [
+              {
+                "date": "2026-10-05",
+                "topic": "Introduction and overview"
+              },
+              {
+                "date": "2026-10-12",
+                "topic": "Analysis and ideas"
+              },
+              {
+                "date": "2026-10-19",
+                "topic": "Information architecture"
+              },
+              {
+                "date": "2026-10-26",
+                "topic": "Digital mockup"
+              },
+              {
+                "date": "2026-11-02",
+                "topic": "Presentations"
+              },
+              {
+                "date": "2026-11-09",
+                "topic": "Brand design"
+              },
+              {
+                "date": "2026-11-16",
+                "topic": "Typography"
+              },
+              {
+                "date": "2026-11-23",
+                "topic": "Presentations"
+              },
+              {
+                "date": "2026-11-30",
+                "topic": "Icons and buttons"
+              },
+              {
+                "date": "2026-12-07",
+                "topic": "Color"
+              },
+              {
+                "date": "2026-12-14",
+                "topic": "Presentations"
+              },
+              {
+                "date": "2026-12-21",
+                "topic": "Design Patterns"
+              },
+              {
+                "date": "2026-12-28",
+                "topic": "No class"
+              },
+              {
+                "date": "2027-01-04",
+                "topic": "No class"
+              },
+              {
+                "date": "2027-01-11",
+                "topic": "Prototyping"
+              },
+              {
+                "date": "2027-01-18",
+                "topic": "Presentations"
+              },
+              {
+                "date": "2027-01-25",
+                "topic": "Presentation skills"
+              },
+              {
+                "date": "2027-02-01",
+                "topic": "Required final presentation"
+              }
+            ],
+            "keyFacts": [
+              "Lecture teacher: Dipl.-Des. Cornelia Schiffers.",
+              "The course covers UX/UI, digital interfaces and prototyping. Practice work mainly uses Figma.",
+              "The grade includes the final project, talk, attendance and participation.",
+              "Personal submission confirmation: the binding enrollment assignment was submitted on 2026-10-05. This is not confirmation of acceptance or a passing grade."
+            ],
+            "sources": [
+              {
+                "file": "../media-design/track-2/source-extracts/course-plan.txt",
+                "scope": "Moodle course plan and assessment rules for track 2",
+                "updatedAt": "2026-04-03"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 66; Sun, 04 Oct 2026 01:53:34 +0200; Sie haben Aufgaben, die in 7 Tagen fällig sind",
+                "updatedAt": "2026-10-08"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 76; Mon, 05 Oct 2026 12:58:24 +0200; Assignment submission confirmation - Verbindliche Belegung des Moduls Mediendesign",
+                "updatedAt": "2026-10-08"
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/01-schedule.mhtml",
+          "fragment": "Modul | 11429_106565 | Pflicht | empf. für das 1. Fachsemester | 0 von 5 Credits   (Eindeutige Bezeichnung: vinfo_m_11429_106565) | Mediendesign Grundlagen | Veranstaltung | 143133 | Pflicht | empf. für das 1. Fachsemester"
+        }
+      ],
+      "unassignedDetails": {
+        "scope": "Email facts with track not established",
+        "keyFacts": [
+          "Possible alternatives discussed personally: a new Tuesday-morning lecture with exercise, or Monday lecture with Schiffers and Tuesday exercise with Zahn. None was confirmed in this correspondence."
+        ],
+        "deadlines": [],
+        "sources": [
+          {
+            "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+            "scope": "INBOX UIDVALIDITY 1784956070, UID 78; Mon, 05 Oct 2026 20:45:37 +0000; AW: !!! IHRE Belegung Mediendesign Grundlagen  im WS 26/27 Dienstags der höheren Semester wurde wg. Überfüllung von SU & Übungen auf die letzte Übung umverteilt....",
+            "updatedAt": "2026-10-08"
+          }
+        ]
+      }
+    },
+    {
+      "moduleId": "mod-4b4c08dc44",
+      "modulNumber": "B09",
+      "name": "Programmierung II",
+      "semester": 2,
+      "credits": 5,
+      "status": "Pflicht",
+      "workload": "68 class hours (2 lecture hours/week + 2 practice hours/week), 82 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "exam",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 100
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": null,
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Klausur (90 Minuten).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Klausur (90 Minuten)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Prof. Dr. Siamak Haschemi"
+          ],
+          "courses": [
+            {
+              "courseId": "course-c25084d19c",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Siamak Haschemi",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "D 136 Seminarraum, ansteigend, H5",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-147fb0d5dd",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Siamak Haschemi",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "D E16a Labor für Softwareentwicklung, PC Pool",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-147fb0d5dd",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Siamak Haschemi",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D E16a Labor für Softwareentwicklung, PC Pool",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "schedule_and_module_handbook_only",
+          "details": null
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Prof. Dr. Selcan Ipek-Ugay"
+          ],
+          "courses": [
+            {
+              "courseId": "course-c25084d19c",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Selcan Ipek-Ugay",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "D 212 Seminarraum",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-147fb0d5dd",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Prof. Dr. Selcan Ipek-Ugay",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D 113 Labor für Informatik-Service, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-147fb0d5dd",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Prof. Dr. Selcan Ipek-Ugay",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "D 113 Labor für Informatik-Service, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "schedule_and_module_handbook_only",
+          "details": null
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/02-schedule.mhtml",
+          "fragment": "Modul | 8646_106565 | Pflicht | empf. für das 2. Fachsemester | 0 von 5 Credits   (Eindeutige Bezeichnung: vinfo_m_8646_106565) | Programmierung II | Veranstaltung | 143010 | Pflicht | empf. für das 2. Fachsemester"
+        }
+      ],
+      "unassignedDetails": {
+        "scope": "p2-wise26 Moodle group planning; WiSe 2026/27. Track not identified in the source; these rules are not assigned to either stream.",
+        "deadlines": [
+          {
+            "date": "2026-10-09",
+            "label": "Register the two-person group by 23:55; timezone not stated in the source",
+            "mandatory": true
+          }
+        ],
+        "keyFacts": [
+          "Groups must contain two people; individual work is not accepted.",
+          "Only students listed by name in the group planning activity may attend the defense.",
+          "Students without a teammate may enter their name so another person can join.",
+          "The activity shows opening on 2026-10-07 at 15:24 and closing on 2026-10-10 at 15:24. The written registration deadline is earlier: 2026-10-09 at 23:55.",
+          "Original screenshot and organization PDF were unavailable at the supplied filesystem paths. Screenshot facts were transcribed from the visible conversation attachment; the PDF has not been imported."
+        ],
+        "sources": [
+          {
+            "file": "../programming-2/unassigned/source-extracts/group-planning-2026-10-07.txt",
+            "scope": "Manual transcription of visible screenshot: p2-wise26 / Organisatorisches / Planung der Gruppen; track unknown",
+            "updatedAt": "2026-10-07"
+          }
+        ]
+      }
+    },
+    {
+      "moduleId": "mod-d278bdfc67",
+      "modulNumber": "B10",
+      "name": "Betriebssysteme",
+      "semester": 2,
+      "credits": 5,
+      "status": "Pflicht",
+      "workload": "68 class hours (2 lecture hours/week + 2 practice hours/week), 82 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "exam",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 100
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": null,
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Klausur (90 Minuten).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Klausur (90 Minuten)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Prof. Dr. Rüdiger Weis"
+          ],
+          "courses": [
+            {
+              "courseId": "course-aaa24ac6a5",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Rüdiger Weis",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D 101 Hörsaal H1",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-ff3a7fd31c",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Rüdiger Weis",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "19:30",
+                  "end": "21:00",
+                  "room": "D 138 Labor für Rechner und Informationssysteme, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-ff3a7fd31c",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Rüdiger Weis",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "D 138 Labor für Rechner und Informationssysteme, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "schedule_and_module_handbook_only",
+          "details": null
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Prof. Dr. Rüdiger Weis"
+          ],
+          "courses": [
+            {
+              "courseId": "course-aaa24ac6a5",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Rüdiger Weis",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D 101 Hörsaal H1",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-ff3a7fd31c",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Prof. Dr. Rüdiger Weis",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "D 139 Labor für Rechner und Informationssysteme, PC Pool",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            },
+            {
+              "courseId": "course-ff3a7fd31c",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Prof. Dr. Rüdiger Weis",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TU",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D 138 Labor für Rechner und Informationssysteme, PC Pool",
+                  "dateStart": "2026-10-06",
+                  "dateEnd": "2027-02-09"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "schedule_and_module_handbook_only",
+          "details": null
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/02-schedule.mhtml",
+          "fragment": "Modul | 8644_106565 | Pflicht | empf. für das 2. Fachsemester | 0 von 5 Credits   (Eindeutige Bezeichnung: vinfo_m_8644_106565) | Betriebssysteme | Veranstaltung | 143144 | Pflicht | empf. für das 2. Fachsemester"
+        }
+      ],
+      "unassignedDetails": {
+        "scope": "bs-wis26 Moodle forum; teacher Rüdiger Weis teaches both tracks, so the track is not established by the email.",
+        "keyFacts": [
+          "Exercise sheet 1: Shellprogrammierung contains four tasks worth 6, 6, 16 and 16 points (44 total). No submission deadline is stated.",
+          "Read the supplied vi reference material."
+        ],
+        "deadlines": [],
+        "sources": [
+          {
+            "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+            "scope": "INBOX UIDVALIDITY 1784956070, UID 90; Wed, 07 Oct 2026 18:40:58 +0200; bs-wis26: Notwendiges zum vi",
+            "updatedAt": "2026-10-08"
+          },
+          {
+            "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+            "scope": "INBOX UIDVALIDITY 1784956070, UID 91; Wed, 07 Oct 2026 18:41:00 +0200; bs-wis26: Übungsblatt 1: Shellprogrammierung",
+            "updatedAt": "2026-10-08"
+          }
+        ],
+        "workloadRules": [
+          "Complete vimtutor and work on sheets 1 and 2 with the vi editor.",
+          "Use only the standard sh commands presented in class.",
+          "Task 1: for a call with more than two parameters, print only the last two.",
+          "Task 2: validate an even number of parameters; print a Unix-style error to stderr and exit with failure otherwise.",
+          "Task 3: list files in the current directory with names at least 3 and less than 6 characters long.",
+          "Task 4: print all positional parameters with numbering in reverse order."
+        ]
+      }
+    },
+    {
+      "moduleId": "mod-f918aa5fb5",
+      "modulNumber": "B14",
+      "name": "Computergrafik Grundlagen",
+      "semester": 3,
+      "credits": 7,
+      "status": "Pflicht",
+      "workload": "68 class hours (2 lecture hours/week + 2 practice hours/week), 142 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Programmierübung, Hausarbeit",
+      "assessmentBaseline": {
+        "classification": "hybrid",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 50
+          },
+          {
+            "label": "Written exercises",
+            "percent": 50
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": "Exercise sheets every two weeks",
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 50% Klausur (90 Minuten), 50% schriftliche Übungen (14-tägige Übungsblätter).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 50% Klausur (90 Minuten), 50% schriftliche Übungen (14-tägige Übungsblätter)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Prof. Dr. Henrik Tramberend"
+          ],
+          "courses": [
+            {
+              "courseId": "course-8fac6bf2e9",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Henrik Tramberend",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "08:00",
+                  "end": "09:30",
+                  "room": "B 323 Seminarraum",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-eb2c651f1e",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Henrik Tramberend",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 332 Labor für Computergrafik und interaktive Medien, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-eb2c651f1e",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Henrik Tramberend",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "10:00",
+                  "end": "11:30",
+                  "room": "B 332 Labor für Computergrafik und interaktive Medien, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "schedule_and_module_handbook_only",
+          "details": null
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Prof. Dr. Hartmut Schirmacher"
+          ],
+          "courses": [
+            {
+              "courseId": "course-8fac6bf2e9",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Hartmut Schirmacher",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "10:00",
+                  "end": "11:30",
+                  "room": "B 323 Seminarraum",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-eb2c651f1e",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Prof. Dr. Hartmut Schirmacher",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 223 Labor für Computergrafik und interaktive Medien",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-eb2c651f1e",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Prof. Dr. Hartmut Schirmacher",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 223 Labor für Computergrafik und interaktive Medien",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "schedule_and_module_handbook_only",
+          "details": null
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/03-schedule.mhtml",
+          "fragment": "Modul | 11431_106565 | Pflicht | empf. für das 3. Fachsemester | 0 von 7 Credits   (Eindeutige Bezeichnung: vinfo_m_11431_106565) | Computergrafik Grundlagen | Veranstaltung | 143147 | Pflicht | empf. für das 3. Fachsemester"
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-74bcd71c31",
+      "modulNumber": "B15",
+      "name": "Medientechnologien",
+      "semester": 3,
+      "credits": 8,
+      "status": "Pflicht",
+      "workload": "102 class hours (2 lecture hours/week + 4 practice hours/week), 138 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "hybrid",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 65
+          },
+          {
+            "label": "Written exercises",
+            "percent": 35
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": "Exercise sheets every two weeks",
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 65% Klausur (90 Minuten), 35% schriftliche Übungen (14-tägige Übungsblätter).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 65% Klausur (90 Minuten), 35% schriftliche Übungen (14-tägige Übungsblätter)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Prof. Dr. Hansjörg Mixdorff",
+            "Dr. Dr. Angelika Hönemann"
+          ],
+          "courses": [
+            {
+              "courseId": "course-5a2d1d1e92",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Hansjörg Mixdorff",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 301 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-69c93523b0",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Dr. Dr. Angelika Hönemann",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 325 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 325 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-69c93523b0",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Dr. Dr. Angelika Hönemann",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "08:00",
+                  "end": "09:30",
+                  "room": "B 325 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "10:00",
+                  "end": "11:30",
+                  "room": "B 325 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Email course details for track 1; Wintersemester 2026/27",
+            "keyFacts": [
+              "Mixdorff announced the first lecture for 2026-10-09 and regular exercises starting 2026-10-16. Hönemann separately announced an introductory exercise meeting on 2026-10-09; instructor/group applicability needs clarification.",
+              "Hönemann announced a joint introductory meeting for both of her exercise groups on 2026-10-09 at 14:15 in B325; the 08:00 exercise does not take place that day. Preserve this one-day announcement separately from recurring times; clarify its relation to Mixdorff's announcement."
+            ],
+            "sources": [
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 87; Tue, 06 Oct 2026 18:21:09 +0200; mtwise26: Willkommen bei MT",
+                "updatedAt": "2026-10-08"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 79; Tue, 06 Oct 2026 10:15:15 +0200; mtü-wise26: Info Freitag",
+                "updatedAt": "2026-10-08"
+              }
+            ]
+          }
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Prof. Dr. Hansjörg Mixdorff"
+          ],
+          "courses": [
+            {
+              "courseId": "course-5a2d1d1e92",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Hansjörg Mixdorff",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B 301 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-69c93523b0",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Prof. Dr. Hansjörg Mixdorff",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 341 Labor für Digitaltechnik, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 341 Labor für Digitaltechnik, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-69c93523b0",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Prof. Dr. Hansjörg Mixdorff",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "08:00",
+                  "end": "09:30",
+                  "room": "B 341 Labor für Digitaltechnik, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "10:00",
+                  "end": "11:30",
+                  "room": "B 341 Labor für Digitaltechnik, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Email course details for track 2; Wintersemester 2026/27",
+            "keyFacts": [
+              "Mixdorff announced the first lecture for 2026-10-09 and regular exercises starting 2026-10-16. Hönemann separately announced an introductory exercise meeting on 2026-10-09; instructor/group applicability needs clarification."
+            ],
+            "sources": [
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 87; Tue, 06 Oct 2026 18:21:09 +0200; mtwise26: Willkommen bei MT",
+                "updatedAt": "2026-10-08"
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/03-schedule.mhtml",
+          "fragment": "Modul | 11432_106565 | Pflicht | empf. für das 3. Fachsemester | 0 von 8 Credits   (Eindeutige Bezeichnung: vinfo_m_11432_106565) | Medientechnologien | Veranstaltung | 143149 | Pflicht | empf. für das 3. Fachsemester"
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-d666874ade",
+      "modulNumber": "B18",
+      "name": "Software Engineering II",
+      "semester": 4,
+      "credits": 8,
+      "status": "Pflicht",
+      "workload": "102 class hours (2 lecture hours/week + 4 practice hours/week), 138 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "hybrid",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 50
+          },
+          {
+            "label": "Project",
+            "percent": 50
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": "40 hours of project work",
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 50% Klausur (90 Minuten), 50% Projektarbeit (40 Stunden).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 50% Klausur (90 Minuten), 50% Projektarbeit (40 Stunden)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Prof. Dr. Sven Graupner"
+          ],
+          "courses": [
+            {
+              "courseId": "course-6bd2ac09cd",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Sven Graupner",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "D 118 Seminarraum, ansteigend, H4",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6b50cc8084",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Sven Graupner",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "D E16a Labor für Softwareentwicklung, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "D E16a Labor für Softwareentwicklung, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6b50cc8084",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Sven Graupner",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D E16a Labor für Softwareentwicklung, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "D E16a Labor für Softwareentwicklung, PC Pool",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "A15 assignment shown in the existing track-1 Moodle source; WiSe 2026/27",
+            "deadlines": [
+              {
+                "date": "2026-10-23",
+                "label": "A15 setup — due at 23:59 (Europe/Berlin)",
+                "mandatory": true
+              }
+            ],
+            "keyFacts": [
+              "A15 opened on 2026-10-07. A1–A5 cover laptop, terminal, Java, Git and VS Code setup; 3 points each, 15 total.",
+              "Skip Python parts for this course.",
+              "Show each validation in the exercise class and record acceptance in the completion list. Moodle or email submissions are not accepted."
+            ],
+            "sources": [
+              {
+                "file": "../software-engineering-2/track-1/02-seminars/a15-setup.png",
+                "scope": "Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules"
+              },
+              {
+                "file": "../software-engineering-2/track-1/02-seminars/a15-setup/README.md",
+                "scope": "Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a",
+                "updatedAt": "2026-10-07"
+              }
+            ]
+          }
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Thomas Ziemer"
+          ],
+          "courses": [
+            {
+              "courseId": "course-6bd2ac09cd",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Thomas Ziemer",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "D 209 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6b50cc8084",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Thomas Ziemer",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "FR",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "D 209 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                },
+                {
+                  "weekday": "FR",
+                  "start": "19:30",
+                  "end": "21:00",
+                  "room": "D 209 Seminarraum",
+                  "dateStart": "2026-10-09",
+                  "dateEnd": "2027-02-12"
+                }
+              ]
+            },
+            {
+              "courseId": "course-6b50cc8084",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Thomas Ziemer",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "TH",
+                  "start": "10:00",
+                  "end": "11:30",
+                  "room": "D 339 Seminarraum",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                },
+                {
+                  "weekday": "TH",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "D E17 Labor für Softwareentwicklung",
+                  "dateStart": "2026-10-08",
+                  "dateEnd": "2027-02-11"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Email course details for track 2; Wintersemester 2026/27",
+            "deadlines": [
+              {
+                "date": "2026-10-07",
+                "label": "Team formation preferences — due at 16:00 to Ziemer; historical deadline; timezone not stated",
+                "mandatory": false
+              }
+            ],
+            "keyFacts": [
+              "The first lecture was announced for 2026-10-09 at 16:00. Exercise times will be agreed in class and may differ from the timetable."
+            ],
+            "workloadRules": [
+              "Exercise teams may contain at most five people, all enrolled in the same exercise block.",
+              "Group preference emails must include SE2, full names, student numbers and optionally a team name. No participant list is stored in the database.",
+              "After the preference deadline, students are assigned randomly."
+            ],
+            "sources": [
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 74; Mon, 05 Oct 2026 12:30:45 +0200; se2-ziemer-wise26: Bildung der SE2-Übungsgruppen",
+                "updatedAt": "2026-10-08"
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/04-schedule.mhtml",
+          "fragment": "Modul | 8655_106565 | Pflicht | empf. für das 4. Fachsemester | 0 von 8 Credits   (Eindeutige Bezeichnung: vinfo_m_8655_106565) | Software Engineering II | Veranstaltung | 143019 | Pflicht | empf. für das 4. Fachsemester"
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-451df9a5df",
+      "modulNumber": "B19",
+      "name": "Web Engineering II",
+      "semester": 4,
+      "credits": 7,
+      "status": "Pflicht",
+      "workload": "68 class hours (2 lecture hours/week + 2 practice hours/week), 142 hours of self-study",
+      "teachingForm": "Seminaristischer Unterricht, Übung",
+      "assessmentBaseline": {
+        "classification": "hybrid",
+        "components": [
+          {
+            "label": "Exam",
+            "percent": 30
+          },
+          {
+            "label": "Project",
+            "percent": 70
+          }
+        ],
+        "examDurationMinutes": 90,
+        "courseworkScope": "40 hours of project work",
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 30% Klausur (90 Minuten), 70% Projektarbeit (40 Stunden).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 30% Klausur (90 Minuten), 70% Projektarbeit (40 Stunden)."
+        }
+      },
+      "streams": [
+        {
+          "zug": 1,
+          "teachers": [
+            "Prof. Dr. Jens von Pilgrim"
+          ],
+          "courses": [
+            {
+              "courseId": "course-41da20be52",
+              "type": "lecture",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Jens von Pilgrim",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 323 Seminarraum",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-5238c082eb",
+              "type": "exercise",
+              "parallelGroup": 1,
+              "teacher": "Prof. Dr. Jens von Pilgrim",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 223 Labor für Computergrafik und interaktive Medien",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-5238c082eb",
+              "type": "exercise",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Jens von Pilgrim",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "17:45",
+                  "end": "19:15",
+                  "room": "B 223 Labor für Computergrafik und interaktive Medien",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-5238c082eb",
+              "type": "exercise",
+              "parallelGroup": null,
+              "teacher": "Prof. Dr. Jens von Pilgrim",
+              "registrationPeriod": null,
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "12:15",
+                  "end": "13:45",
+                  "room": "B240",
+                  "dateStart": null,
+                  "dateEnd": null
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Rules from Prof. Dr. Jens von Pilgrim for track 1",
+            "actualAssessment": {
+              "components": [
+                {
+                  "label": "Exam",
+                  "percent": 80
+                },
+                {
+                  "label": "Practice",
+                  "percent": 20
+                }
+              ],
+              "passConditions": [
+                "Pass the exam and practice separately with a grade of 4.0 or better.",
+                "Submit and pass at least 9 of the 11 graded sheets.",
+                "The practice grade is the average of the best 10 solutions."
+              ],
+              "exam": {
+                "durationMinutes": 60,
+                "format": "In person, using Moodle on exam laptops",
+                "materialsAllowed": false,
+                "periods": 2
+              },
+              "attemptStartsWhen": "The attempt starts with the first submission of a graded sheet (01–11)."
+            },
+            "workloadRules": [
+              "Sheets usually appear on Wednesday, are discussed the next week and are due Thursday at 23:59.",
+              "Submit your own solution. Group solutions are not allowed.",
+              "Use VS Code, a private GitLab fork, regular meaningful commits, TypeScript, builds and tests.",
+              "Statement coverage usually must exceed 80%. Check the exact threshold in the task.",
+              "Late work is usually not accepted. Discuss exceptions with the teacher if you have a valid reason.",
+              "Attendance in other exercise groups is generally allowed, but registered members have priority.",
+              "Defenses and the mock exam normally take place in the registered exercise group; exceptions require agreement."
+            ],
+            "oralChecks": [
+              "The teacher may ask you to explain any submission in an oral review.",
+              "Explain your solution and reproduce simple parts of the code.",
+              "Two missed or failed oral reviews result in a final grade of 5.0."
+            ],
+            "aiPolicy": [
+              "Only GitHub Copilot Chat in VS Code is allowed.",
+              "Automatic AI code completion is not allowed.",
+              "Export the chat history and include it with your submission.",
+              "Understand, explain and reproduce all generated code."
+            ],
+            "submission": [
+              "npm run abgabe creates the ZIP for Moodle.",
+              "npm run build must finish without errors.",
+              "npm test must pass with the required coverage."
+            ],
+            "sources": [
+              {
+                "file": "../web-engineering-2/track-1/source-extracts/assessment-rules/assessment-rules.txt",
+                "scope": "Assessment and submission rules for Web Engineering II track 1",
+                "updatedAt": "2026-09-16"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 81; Tue, 06 Oct 2026 12:45:27 +0200; we2-wise26: Neue Übungsgruppe, bitte verteilen",
+                "updatedAt": "2026-10-08"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 92; Wed, 07 Oct 2026 19:40:27 +0200; we2-wise26: Blatt 0 Update",
+                "updatedAt": "2026-10-08"
+              },
+              {
+                "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+                "scope": "INBOX UIDVALIDITY 1784956070, UID 93; Thu, 08 Oct 2026 01:54:53 +0200; You have assignments due in 7 days",
+                "updatedAt": "2026-10-08"
+              }
+            ],
+            "deadlines": [
+              {
+                "date": "2026-10-15",
+                "label": "Blatt 00 — due at 23:59; timezone not stated in email; Moodle activity 1508636",
+                "mandatory": true
+              }
+            ],
+            "keyFacts": [
+              "An additional Wednesday exercise was announced for 12:15–13:45 in B240. Exact validity dates and official group number were not stated.",
+              "Exercise groups will be redistributed to balance enrollment; receiving this announcement does not confirm personal allocation.",
+              "Blatt 0 project was fixed. Existing forks and clones may need updating."
+            ]
+          }
+        },
+        {
+          "zug": 2,
+          "teachers": [
+            "Prof. Dr. Sebastian von Klinski"
+          ],
+          "courses": [
+            {
+              "courseId": "course-41da20be52",
+              "type": "lecture",
+              "parallelGroup": 2,
+              "teacher": "Prof. Dr. Sebastian von Klinski",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "MO",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 325 Seminarraum",
+                  "dateStart": "2026-10-05",
+                  "dateEnd": "2027-02-08"
+                }
+              ]
+            },
+            {
+              "courseId": "course-5238c082eb",
+              "type": "exercise",
+              "parallelGroup": 3,
+              "teacher": "Prof. Dr. Sebastian von Klinski",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "16:00",
+                  "end": "17:30",
+                  "room": "B 332 Labor für Computergrafik und interaktive Medien, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            },
+            {
+              "courseId": "course-5238c082eb",
+              "type": "exercise",
+              "parallelGroup": 4,
+              "teacher": "Prof. Dr. Sebastian von Klinski",
+              "registrationPeriod": "Anmeldung möglich von 23.09.26 08:00 bis 17.10.26 23:59",
+              "meetings": [
+                {
+                  "weekday": "WE",
+                  "start": "14:15",
+                  "end": "15:45",
+                  "room": "B 332 Labor für Computergrafik und interaktive Medien, PC Pool",
+                  "dateStart": "2026-10-07",
+                  "dateEnd": "2027-02-10"
+                }
+              ]
+            }
+          ],
+          "detailStatus": "enriched",
+          "details": {
+            "scope": "Practice rules from Prof. Dr. Sebastian von Klinski for track 2; the document does not specify the exam weight in the module grade",
+            "exerciseAssessment": {
+              "assignments": 2,
+              "milestonesPerAssignment": 3,
+              "learningChecksPerAssignment": "1–2",
+              "points": "Up to 60 points for a passed assignment and 20 points for each of two learning checks; 100 points maximum.",
+              "finalMilestone": "Up to 80 points for functional requirements and 20 for other requirements, before bonus points and penalties.",
+              "passConditions": [
+                "Pass all three milestones for each assignment.",
+                "Pass at least one learning check per assignment.",
+                "If the app does not start or meets almost none of the requirements, the milestone or practice course is not passed."
+              ]
+            },
+            "workloadRules": [
+              "Assignment 1: REST server. Assignment 2: React frontend.",
+              "Submit each milestone in Moodle as a runnable ZIP. The project must work after npm install.",
+              "Late work is accepted for up to 7 days, with a penalty of 1 point per day. After that it does not count.",
+              "All work is individual. Copying code or being unable to explain your code counts as plagiarism."
+            ],
+            "scheduleNote": "The plan comes from the supplied screenshot. Years 2026/27 follow the project term. Submission dates are in brackets; row dates mark teaching weeks. Submission and exam times are missing. Confirm final deadlines in Moodle.",
+            "deadlines": [
+              {
+                "date": "2026-10-05",
+                "label": "Assignment 1 starts: milestone 1, REST server, Public User"
+              },
+              {
+                "date": "2026-10-28",
+                "label": "Assignment 1, milestone 1 due (week of 26 Oct)"
+              },
+              {
+                "date": "2026-11-02",
+                "label": "Assignment 1 learning checks start; individual dates are set separately"
+              },
+              {
+                "date": "2026-11-11",
+                "label": "Assignment 1, milestone 2 due: authentication (week of 9 Nov)"
+              },
+              {
+                "date": "2026-11-25",
+                "label": "Assignment 1, milestone 3 due: all features (week of 23 Nov)"
+              },
+              {
+                "date": "2026-11-30",
+                "label": "Midterm exam: planned date, time unknown; no lecture"
+              },
+              {
+                "date": "2026-12-16",
+                "label": "Assignment 2, milestone 1 due: React and authentication (week of 14 Dec)"
+              },
+              {
+                "date": "2026-12-21",
+                "label": "Assignment 2 learning checks start; individual dates are set separately"
+              },
+              {
+                "date": "2027-01-06",
+                "label": "Assignment 2, milestone 2 due: user management (week of 4 Jan)"
+              },
+              {
+                "date": "2027-01-20",
+                "label": "Assignment 2, milestone 3 due: all features (week of 18 Jan)"
+              },
+              {
+                "date": "2027-01-25",
+                "label": "Final exam: planned date, time unknown"
+              },
+              {
+                "date": "2027-02-01",
+                "label": "End of term in the course plan"
+              }
+            ],
+            "techStack": [
+              "React SPA",
+              "Redux",
+              "Node.js REST server",
+              "MongoDB",
+              "Mongoose",
+              "TypeScript",
+              "ESLint"
+            ],
+            "submission": [
+              "Submit a ZIP of source code without node_modules.",
+              "List all dependencies in package.json.",
+              "The project must run with npm install and npm start. Do not use nodemon in the start script.",
+              "Include a PDF describing any extra features with the final submission."
+            ],
+            "oralChecks": [
+              "If automatic checks fail, the teacher may arrange an in-person review within 1–2 weeks.",
+              "Demonstrate the program and explain all code. Later fixes are usually not accepted.",
+              "The learning check takes place during practice, lasts about 60 minutes and requires changes to your own project.",
+              "Missing or failing the second learning check means failing the practice course and module."
+            ],
+            "aiPolicy": [
+              "Mark code from the internet or an LLM with a comment and its source.",
+              "Code you cannot fully explain counts as plagiarism.",
+              "AI tools and search engines are not allowed during learning checks. Disable built-in AI extensions.",
+              "Only Moodle materials are allowed during learning checks."
+            ],
+            "keyFacts": [
+              "Use the MERN stack. Angular and Vue are not allowed.",
+              "TypeScript is required. At least 50% of variables and functions must have explicit types.",
+              "At the final milestone, ESLint must report 0 errors and no more than 15 warnings."
+            ],
+            "sources": [
+              {
+                "file": "../web-engineering-2/track-2/source-extracts/assessment-rules-v17/assessment-rules-v17.txt",
+                "scope": "Project assessment rules for Web Engineering II track 2",
+                "updatedAt": "2026-09-08"
+              },
+              {
+                "file": "../web-engineering-2/track-2/01-lectures/course-schedule.png",
+                "scope": "Teaching weeks, milestones, learning checks and exams for Web Engineering II track 2"
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/04-schedule.mhtml",
+          "fragment": "Modul | 11434_106565 | Pflicht | empf. für das 4. Fachsemester | 0 von 7 Credits   (Eindeutige Bezeichnung: vinfo_m_11434_106565) | Web Engineering II | Veranstaltung | 143156 | Pflicht | empf. für das 4. Fachsemester"
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-f513fd04a1",
+      "modulNumber": "B23",
+      "name": "Projekt",
+      "semester": 5,
+      "credits": 15,
+      "status": "Pflicht",
+      "workload": "102 class hours (6 practice hours/week), 348 hours of self-study",
+      "teachingForm": "Übung",
+      "assessmentBaseline": {
+        "classification": "project",
+        "components": [
+          {
+            "label": "Project",
+            "percent": 100
+          }
+        ],
+        "examDurationMinutes": null,
+        "courseworkScope": "348 hours of project work",
+        "assessmentRaw": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Projektarbeit (348 Stunden).",
+        "note": "Handbook assessment; teachers may change it under §19(2) RSPO.",
+        "source": {
+          "sourceFile": "../plan/module-handbook.pdf",
+          "fragment": "Die Prüfungsform wird nach §19(2) RSPO durch die Lehrkraft festgelegt. Sofern die Lehrkraft die Prüfungsform und die Prüfungsmodalitäten nicht am Semesteranfang in der Frist nach §19 (2) RSPO festlegt, gilt folgende Prüfungsform: 100% Projektarbeit (348 Stunden)."
+        }
+      },
+      "streams": [],
+      "sources": [
+        {
+          "sourceFile": "../plan/source-exports/05-schedule.mhtml",
+          "fragment": "Modul | 11436_106565 | Pflicht | empf. für das 5. Fachsemester | 0 von 15 Credits   (Eindeutige Bezeichnung: vinfo_m_11436_106565) | Projekt | Veranstaltung | 143163 | Pflicht | empf. für das 5. Fachsemester"
+        }
+      ],
+      "projectGroups": {
+        "offered": [
+          "Dialekt",
+          "DienstWeb",
+          "Lernplattform",
+          "P4",
+          "P5",
+          "P6",
+          "P7",
+          "P8",
+          "P9",
+          "P10",
+          "P11",
+          "P12",
+          "P13"
+        ],
+        "signupSnapshot": {
+          "studentsTotal": 75,
+          "assigned": 8,
+          "unassigned": 67,
+          "countsByProject": {
+            "Dialekt": 2,
+            "DienstWeb": 6
+          }
+        },
+        "examiners": [
+          "Markus Schubert",
+          "Prof. Dr. Siamak Haschemi"
+        ],
+        "privacyNote": "Student names, emails and IDs are excluded.",
+        "sources": [
+          {
+            "file": "../project/groups.xlsx",
+            "scope": "Project choices and group totals as of 4 Oct 2026"
+          }
+        ]
+      },
+      "unassignedDetails": {
+        "scope": "projekt Moodle course, WiSe 2026/27; track is not stated.",
+        "keyFacts": [
+          "GitLab team subgroups and repositories have been created at https://gitlab.bht-berlin.de/project_bachelor/ws26.",
+          "Each team member should be a subgroup member with Owner role; check spam for the invitation if necessary.",
+          "Questions go to the general Discord channel; supervisor allocation was still to be announced."
+        ],
+        "deadlines": [
+          {
+            "date": "2026-10-08",
+            "label": "Pitch — 09:30–11:30, Ingeborg-Meising-Saal; date inferred from the 2026-10-04 email saying next Thursday; activity 1400091",
+            "mandatory": true
+          }
+        ],
+        "sources": [
+          {
+            "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+            "scope": "INBOX UIDVALIDITY 1784956070, UID 70; Sun, 04 Oct 2026 18:05:10 +0200; projekt: Aufgabe Pitch",
+            "updatedAt": "2026-10-08"
+          }
+        ]
+      }
+    }
+  ]
+}

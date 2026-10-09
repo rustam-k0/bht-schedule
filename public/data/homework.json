@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "term": "Wintersemester 2026/27",
+  "generatedAt": "2026-10-08T08:51:17.362Z",
+  "tasks": [
+    {
+      "id": "moodle-1508636",
+      "track": "1",
+      "title": "Blatt 00",
+      "type": "практика",
+      "date": "2026-10-15",
+      "time": "23:59",
+      "priority": "средний",
+      "submitted": false,
+      "notes": "Timezone not stated. Project fix announced 2026-10-07.",
+      "url": "https://lms.bht-berlin.de/mod/assign/view.php?id=1508636",
+      "subject": "mod-451df9a5df",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 93; Thu, 08 Oct 2026 01:54:53 +0200; You have assignments due in 7 days",
+          "updatedAt": "2026-10-08"
+        },
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 92; Wed, 07 Oct 2026 19:40:27 +0200; we2-wise26: Blatt 0 Update",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "moodle-1510499",
+      "track": "2",
+      "title": "Test: Mengen",
+      "type": "тест",
+      "date": "2026-10-19",
+      "time": "23:59",
+      "priority": "средний",
+      "submitted": false,
+      "notes": "Opened 2026-10-05 at 14:03. Timezone not stated.",
+      "url": "https://lms.bht-berlin.de/mod/quiz/view.php?id=1510499",
+      "subject": "mod-b6c0641708",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 67; Sun, 04 Oct 2026 02:13:02 +0200; Öffnet am Montag, 5. Oktober 2026, 14:03: Test: Mengen",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "moodle-1521541",
+      "track": "2",
+      "title": "Verbindliche Belegung des Moduls Mediendesign",
+      "type": "задачи",
+      "date": "2026-10-11",
+      "time": "19:00",
+      "priority": "средний",
+      "submitted": true,
+      "notes": "Submitted 2026-10-05; acceptance and grade not confirmed. Timezone not stated.",
+      "url": "https://lms.bht-berlin.de/mod/assign/view.php?id=1521541",
+      "subject": "mod-3f564d3c95",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 66; Sun, 04 Oct 2026 01:53:34 +0200; Sie haben Aufgaben, die in 7 Tagen fällig sind",
+          "updatedAt": "2026-10-08"
+        },
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 76; Mon, 05 Oct 2026 12:58:24 +0200; Assignment submission confirmation - Verbindliche Belegung des Moduls Mediendesign",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "moodle-forum-350965",
+      "track": "",
+      "title": "Übungsblatt 1: Shellprogrammierung",
+      "type": "практика",
+      "date": "",
+      "time": "",
+      "priority": "средний",
+      "submitted": false,
+      "notes": "4 tasks, 44 points total. Standard sh only. Track and due date unknown.",
+      "url": "https://lms.bht-berlin.de/mod/forum/discuss.php?d=350965#p449073",
+      "subject": "mod-d278bdfc67",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 91; Wed, 07 Oct 2026 18:41:00 +0200; bs-wis26: Übungsblatt 1: Shellprogrammierung",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "bht-bs-vimtutor-sheets-1-2",
+      "track": "",
+      "title": "vimtutor and sheets 1–2 using vi",
+      "type": "практика",
+      "date": "",
+      "time": "",
+      "priority": "средний",
+      "submitted": false,
+      "notes": "Track and due date unknown; linked to Übungsblatt 1.",
+      "url": null,
+      "subject": "mod-d278bdfc67",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 91; Wed, 07 Oct 2026 18:41:00 +0200; bs-wis26: Übungsblatt 1: Shellprogrammierung",
+          "updatedAt": "2026-10-08"
+        },
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 90; Wed, 07 Oct 2026 18:40:58 +0200; bs-wis26: Notwendiges zum vi",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "moodle-1400091",
+      "track": "",
+      "title": "Project pitch",
+      "type": "проект",
+      "date": "2026-10-08",
+      "time": "09:30",
+      "priority": "средний",
+      "submitted": false,
+      "notes": "Pitch window 09:30–11:30, Ingeborg-Meising-Saal. Date inferred from email; this time is the event start, not a separate upload deadline. Track unknown.",
+      "url": "https://lms.bht-berlin.de/mod/assign/view.php?id=1400091",
+      "subject": "mod-f513fd04a1",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 70; Sun, 04 Oct 2026 18:05:10 +0200; projekt: Aufgabe Pitch",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "bht-se2-team-preferences-2026-10-07",
+      "track": "2",
+      "title": "SE2 team formation preferences",
+      "type": "задачи",
+      "date": "2026-10-07",
+      "time": "16:00",
+      "priority": "средний",
+      "submitted": false,
+      "notes": "Optional preferences deadline has passed. Maximum five people in the same exercise block. Personal completion unknown.",
+      "url": null,
+      "subject": "mod-d666874ade",
+      "sources": [
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 74; Mon, 05 Oct 2026 12:30:45 +0200; se2-ziemer-wise26: Bildung der SE2-Übungsgruppen",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    }
+  ]
+}

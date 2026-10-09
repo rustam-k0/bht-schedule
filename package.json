@@ -1,0 +1,28 @@
+{
+  "name": "bht-schedule-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "setup:python": "python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt",
+    "import": ".venv/bin/python scripts/import_schedule.py",
+    "build:course-db": "node scripts/build_course_database.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "vitest": "latest",
+    "jsdom": "latest"
+  }
+}

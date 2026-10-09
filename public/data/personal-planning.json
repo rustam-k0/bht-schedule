@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "term": "Wintersemester 2026/27",
+  "generatedAt": "2026-10-08T08:51:17.362Z",
+  "recognition": {
+    "placementSemester": 3,
+    "documentDate": "2026-09-07",
+    "modules": [
+      {
+        "sourceCode": "8637_106565",
+        "name": "Mathematik I",
+        "credits": 5,
+        "gradeAsDocumented": 1,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 1: visually verified grade in the SU/exercise row of Mathematik I; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "8640_106565",
+        "name": "Technische Grundlagen der Informatik",
+        "credits": 5,
+        "gradeAsDocumented": 1.7,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 1: visually verified grade in the SU/exercise row of Technische Grundlagen der Informatik; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "11430_106565",
+        "name": "Programmierung I",
+        "credits": 10,
+        "gradeAsDocumented": 2,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 1: visually verified grade in the SU/exercise row of Programmierung I; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "8643_106565",
+        "name": "Mathematik II",
+        "credits": 5,
+        "gradeAsDocumented": 1.3,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 1: visually verified grade in the SU/exercise row of Mathematik II; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "10985_106565",
+        "name": "Algorithmen und Datenstrukturen",
+        "credits": 5,
+        "gradeAsDocumented": 1.3,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 1: visually verified grade in the SU/exercise row of Algorithmen und Datenstrukturen; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "8645_106565",
+        "name": "Datenbanksysteme",
+        "credits": 5,
+        "gradeAsDocumented": 2.7,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 1: visually verified grade in the SU/exercise row of Datenbanksysteme; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "8649_106565",
+        "name": "Software Engineering I",
+        "credits": 5,
+        "gradeAsDocumented": 1.3,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 2: visually verified grade in the SU/exercise row of Software Engineering I; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "11433_106565",
+        "name": "Web Engineering I",
+        "credits": 5,
+        "gradeAsDocumented": 3,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 2: visually verified grade in the SU/exercise row of Web Engineering I; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "11435_106565",
+        "name": "Human–Computer Interaction",
+        "credits": 5,
+        "gradeAsDocumented": 4,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 2: visually verified grade in the SU/exercise row of Human–Computer Interaction; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "10531_106565",
+        "name": "Grundlagen wissenschaftlichen Arbeitens",
+        "credits": 5,
+        "gradeAsDocumented": 1.3,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 3: visually verified grade in the SU/exercise row of Grundlagen wissenschaftlichen Arbeitens; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "8663_106566",
+        "name": "Betriebswirtschaftslehre",
+        "credits": 5,
+        "gradeAsDocumented": 1.7,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 3: visually verified grade in the SU/exercise row of Betriebswirtschaftslehre; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "11448_106566",
+        "name": "Maschinelles Lernen",
+        "credits": 5,
+        "gradeAsDocumented": 1.7,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 4: visually verified grade in the SU/exercise row of Maschinelles Lernen; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "11450_106566",
+        "name": "Aktuelle Themen",
+        "credits": 5,
+        "gradeAsDocumented": 1,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 4: visually verified grade in the SU/exercise row of Aktuelle Themen; signed placement in semester 3"
+          }
+        ]
+      },
+      {
+        "sourceCode": "WP25",
+        "name": "Externes Modul 1",
+        "credits": 5,
+        "gradeAsDocumented": 1,
+        "status": "recognized_document_snapshot",
+        "documentDate": "2026-09-07",
+        "sources": [
+          {
+            "file": "../plan/source-exports/recognition/03-module-mapping.pdf",
+            "scope": "Page 5: visually verified grade in the SU/exercise row of Externes Modul 1; signed placement in semester 3"
+          }
+        ]
+      }
+    ],
+    "documentedModuleCredits": 75,
+    "currentPolliStatus": "not_verified",
+    "keyFacts": [
+      "Study administration confirmed recognition on 2026-09-11 and an adjustment on 2026-09-14. The exact latest adjustment is not described.",
+      "Studium Generale recognition was confirmed on 2026-09-10, but the exact individual module and credit mapping is not available here.",
+      "Do not replace current module status or grades using this older document snapshot."
+    ],
+    "sources": [
+      {
+        "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+        "scope": "INBOX UIDVALIDITY 1784956070, UID 34; Thu, 10 Sep 2026 13:57:15 +0000; AW: AW: Anerkennung früherer Studienleistungen als Studium Generale",
+        "updatedAt": "2026-10-08"
+      },
+      {
+        "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+        "scope": "INBOX UIDVALIDITY 1784956070, UID 40; Fri, 11 Sep 2026 10:46:57 +0000; AW: Re: Anerkennung von Studienleistungen und Einstufung in ein höheres Fachsemester",
+        "updatedAt": "2026-10-08"
+      },
+      {
+        "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+        "scope": "INBOX UIDVALIDITY 1784956070, UID 41; Mon, 14 Sep 2026 11:15:57 +0000; AW: AW: Re: Anerkennung von Studienleistungen und Einstufung in ein höheres Fachsemester",
+        "updatedAt": "2026-10-08"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "asta-it-interview-2026-10-13",
+      "label": "AStA IT interview",
+      "date": "2026-10-13",
+      "start": "13:00",
+      "end": "14:00",
+      "timezone": "Europe/Berlin",
+      "room": "M E03",
+      "status": "booking_confirmed",
+      "sources": [
+        {
+          "file": "../plan/source-exports/personal-calendar/asta-it-interview-2026-10-13.ics",
+          "scope": "VEVENT DTSTART/DTEND explicitly use TZID=Europe/Berlin; interview booking 2026-10-13 13:00–14:00"
+        },
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 86; Tue, 06 Oct 2026 17:39:55 +0200; RE: Rustam Khavaiashkhov",
+          "updatedAt": "2026-10-08"
+        },
+        {
+          "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+          "scope": "INBOX UIDVALIDITY 1784956070, UID 88; Wed, 07 Oct 2026 08:45:50 +0000; Buchungsbestätigung / Reservation confirmation",
+          "updatedAt": "2026-10-08"
+        }
+      ]
+    }
+  ],
+  "mobility": {
+    "keyFacts": [
+      "Information event announced for 2026-10-12; time and room not stated.",
+      "Internal application deadline given as 15 December for winter 2027/28 and 15 July for summer 2028; exact deadline years need confirmation.",
+      "An exchange requires BHT enrollment for the entire semester with at least one module still open.",
+      "The international office recommends 20–30 ECTS for a study stay even when credits cannot be transferred.",
+      "Thesis abroad requires early coordination with a BHT supervisor; Erasmus partner study and Erasmus internship are different routes."
+    ],
+    "deadlines": [
+      {
+        "date": null,
+        "monthDay": "12-15",
+        "targetTerm": "Wintersemester 2027/28",
+        "label": "Study-abroad application; year not explicitly stated"
+      },
+      {
+        "date": null,
+        "monthDay": "07-15",
+        "targetTerm": "Sommersemester 2028",
+        "label": "Study-abroad application; year not explicitly stated"
+      }
+    ],
+    "sources": [
+      {
+        "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+        "scope": "INBOX UIDVALIDITY 1784956070, UID 63; Fri, 02 Oct 2026 19:38:06 +0200; Ankündigungen_FB6: Auslandsstudium: Informationsveranstaltung am 12.10.",
+        "updatedAt": "2026-10-08"
+      },
+      {
+        "file": "../plan/source-extracts/email-course-facts-2026-10-08.json",
+        "scope": "INBOX UIDVALIDITY 1784956070, UID 75; Mon, 05 Oct 2026 10:35:32 +0000; AW: Auslandsstudium in der Abschlussphase des Bachelorstudiums",
+        "updatedAt": "2026-10-08"
+      }
+    ]
+  }
+}

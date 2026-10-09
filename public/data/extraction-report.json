@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-10-09T11:35:04.421249+00:00",
+  "sourceFiles": [
+    "../plan/source-exports/01-schedule.mhtml",
+    "../plan/source-exports/02-schedule.mhtml",
+    "../plan/source-exports/03-schedule.mhtml",
+    "../plan/source-exports/04-schedule.mhtml",
+    "../plan/source-exports/05-schedule.mhtml",
+    "../plan/module-handbook.pdf",
+    "../plan/source-extracts/exam-notifications-2026-10-07.json",
+    "../plan/source-extracts/exam-notifications-2026-10-07.txt",
+    "../plan/source-extracts/exam-notifications-2026-10-09.json",
+    "../plan/academic-calendar/2026-10-09-computer-graphics-exam-notices.md",
+    "../plan/source-extracts/email-import-2026-10-08.json",
+    "../plan/source-extracts/email-course-facts-2026-10-08.json",
+    "../plan/source-exports/recognition/01-application.pdf",
+    "../plan/source-exports/recognition/02-application.pdf",
+    "../plan/source-exports/recognition/03-module-mapping.pdf",
+    "../plan/source-exports/exam-notifications/196157.ics",
+    "../plan/source-exports/exam-notifications/193492.ics",
+    "../plan/source-exports/exam-notifications/193495.ics",
+    "../plan/source-exports/exam-notifications/191815.ics",
+    "../plan/source-exports/exam-notifications/191817.ics",
+    "../plan/source-exports/exam-notifications/194837.ics",
+    "../plan/source-exports/exam-notifications/196587.ics",
+    "../plan/source-exports/exam-notifications/196612.ics",
+    "../plan/source-exports/personal-calendar/asta-it-interview-2026-10-13.ics"
+  ],
+  "found": [
+    {
+      "module": "Grundlagen der Theoretischen Informatik",
+      "sourceFile": "../plan/source-exports/01-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Mediendesign Grundlagen",
+      "sourceFile": "../plan/source-exports/01-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Programmierung II",
+      "sourceFile": "../plan/source-exports/02-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Betriebssysteme",
+      "sourceFile": "../plan/source-exports/02-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Computergrafik Grundlagen",
+      "sourceFile": "../plan/source-exports/03-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Medientechnologien",
+      "sourceFile": "../plan/source-exports/03-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 2
+    },
+    {
+      "module": "Software Engineering II",
+      "sourceFile": "../plan/source-exports/04-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Web Engineering II",
+      "sourceFile": "../plan/source-exports/04-schedule.mhtml",
+      "courses": 2,
+      "examSlots": 4
+    },
+    {
+      "module": "Projekt",
+      "sourceFile": "../plan/source-exports/05-schedule.mhtml",
+      "courses": 1,
+      "examSlots": 6
+    }
+  ],
+  "counts": {
+    "modules": 9,
+    "courses": 17,
+    "groups": 49,
+    "meetings": 57,
+    "examSlots": 36
+  },
+  "duplicates": [],
+  "warnings": [
+    {
+      "code": "EMAIL_TRACK_UNKNOWN",
+      "message": "Betriebssysteme assignment forum and project pitch do not state the track; kept unassigned."
+    },
+    {
+      "code": "EMAIL_SCHEDULE_UNCERTAIN",
+      "message": "Medientechnologien announcements, Mediendesign alternatives and SE2 exercise changes require clarification."
+    },
+    {
+      "code": "EMAIL_TIMEZONE_UNKNOWN",
+      "message": "Moodle deadline emails and exam ICS files do not explicitly declare a timezone."
+    },
+    {
+      "code": "RECOGNITION_SNAPSHOT",
+      "message": "Recognition module mapping is dated 2026-09-07; later adjustments and current Polli values are not fully specified."
+    },
+    {
+      "code": "EMAIL_GROUP_FIELDS_UNKNOWN",
+      "message": "WE2 additional Wednesday group: official parallel group number, registration period and date range not stated; stored as null."
+    }
+  ],
+  "unresolvedFields": [
+    {
+      "field": "room",
+      "count": 0,
+      "reason": "No room in the source"
+    },
+    {
+      "field": "parallelGroup",
+      "count": 1,
+      "reason": "Additional WE2 exercise announcement does not specify this value"
+    },
+    {
+      "field": "dateStart",
+      "count": 1,
+      "reason": "Additional WE2 exercise announcement does not specify this value"
+    },
+    {
+      "field": "dateEnd",
+      "count": 1,
+      "reason": "Additional WE2 exercise announcement does not specify this value"
+    },
+    {
+      "field": "registrationPeriod",
+      "count": 1,
+      "reason": "Additional WE2 exercise announcement does not specify this value"
+    }
+  ],
+  "emailImport": {
+    "reviewedInboxMessages": 94,
+    "examConfirmations": 8,
+    "courseUpdates": 11,
+    "homeworkTasks": 7,
+    "recognizedModuleSnapshots": 14
+  }
+}
