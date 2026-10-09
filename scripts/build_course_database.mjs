@@ -233,6 +233,17 @@ const subjects=schedule.modules.map(module=>{
   streams,
   sources:[module.source],
  }
+ if(module.name==='Software Engineering II'){
+  base.unassignedDetails={
+   scope:'User-reported assessment for WiSe 2026/27; track not specified.',
+   keyFacts:[
+    'Activity contributes 60% and the exam 40% to the final grade.',
+    'The final grade is calculated even if the exam is not passed; this does not establish automatic passing of the module.',
+   ],
+   deadlines:[],
+   sources:[source('../software-engineering-2/unassigned/source-extracts/assessment-2026-10-09.txt','User message: 60/40 activity and exam; final grade calculated even when the exam is not passed; track unknown','2026-10-09')],
+  }
+ }
  if(module.name==='Programmierung II'){
   base.unassignedDetails={
    scope:'p2-wise26 Moodle group planning; WiSe 2026/27. Track not identified in the source; these rules are not assigned to either stream.',

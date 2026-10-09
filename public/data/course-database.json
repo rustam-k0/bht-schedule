@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "term": "Wintersemester 2026/27",
-  "generatedAt": "2026-10-08T15:24:55.430Z",
+  "generatedAt": "2026-10-09T14:36:27.447Z",
   "description": "Subject and track details for Medieninformatik B.Sc., winter term 2026/27. Teacher rules take priority over handbook rules only for the stated track.",
   "coverage": {
     "subjects": 9,
@@ -1613,7 +1613,22 @@
           "sourceFile": "../plan/source-exports/04-schedule.mhtml",
           "fragment": "Modul | 8655_106565 | Pflicht | empf. für das 4. Fachsemester | 0 von 8 Credits   (Eindeutige Bezeichnung: vinfo_m_8655_106565) | Software Engineering II | Veranstaltung | 143019 | Pflicht | empf. für das 4. Fachsemester"
         }
-      ]
+      ],
+      "unassignedDetails": {
+        "scope": "User-reported assessment for WiSe 2026/27; track not specified.",
+        "keyFacts": [
+          "Activity contributes 60% and the exam 40% to the final grade.",
+          "The final grade is calculated even if the exam is not passed; this does not establish automatic passing of the module."
+        ],
+        "deadlines": [],
+        "sources": [
+          {
+            "file": "../software-engineering-2/unassigned/source-extracts/assessment-2026-10-09.txt",
+            "scope": "User message: 60/40 activity and exam; final grade calculated even when the exam is not passed; track unknown",
+            "updatedAt": "2026-10-09"
+          }
+        ]
+      }
     },
     {
       "moduleId": "mod-451df9a5df",
