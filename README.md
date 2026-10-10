@@ -17,7 +17,7 @@ Python-зависимости устанавливаются в локальну
 - `../plan/source-exports/01-schedule.mhtml`–`05-schedule.mhtml` — исходные выгрузки расписания.
 - `../plan/module-handbook.pdf` — справочник модулей.
 - `../plan/source-extracts/module-handbook.txt` — извлечённый текст для импорта.
-- `../web-engineering-2/track-2/01-lectures/` — PDF и план учебных недель Web Engineering II.
+- `../web-engineering-2/track-2-von-klinski/01-lectures/` — PDF и план учебных недель Web Engineering II.
 - `../project/groups.xlsx` — исходная таблица проектных групп; приложение показывает агрегированные данные.
 - `source-extracts/` внутри соответствующего предмета и потока — ранее извлечённые тексты и изображения.
 
