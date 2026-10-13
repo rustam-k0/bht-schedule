@@ -106,7 +106,7 @@ outside the served directory. Do not delete them as part of deployment.
 The Mensa tab fetches BHT Luxemburger Straße (OpenMensa ID `2027`) on demand.
 It shares the timetable week, supports date navigation and student/employee/guest
 prices, and retains source dish names and dietary/allergen notes. Course filters
-do not filter meals. The open Mensa tab refreshes every five minutes while visible and when the page becomes visible again. Failed refreshes retain the last retrieved menu with a warning; changing dates clears the previous menu. Timers stop when the section closes. Responses are cached in memory for five minutes; missing
+do not filter meals. The open Mensa tab checks for updates once a week while visible and on returning to the page if the cached menu is at least a week old. Failed refreshes retain the last retrieved menu with a warning; changing dates clears the previous menu. Timers stop when the section closes. Responses are cached in memory for one week; missing
 menus, explicitly closed days and network failures are shown separately.
 No credentials, server changes or generated course database updates are needed.
 OpenMensa allows browser requests (CORS). Menus depend on third-party availability;

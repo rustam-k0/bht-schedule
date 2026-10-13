@@ -7,7 +7,7 @@ const OFFICIAL='https://www.stw.berlin/mensen/einrichtungen/berliner-hochschule-
 type Meal={id:number;name:string;category:string;prices:Record<string,number|null>;notes:string[]}
 type Menu={meals:Meal[];closed:boolean;fetchedAt:number}
 const cache=new Map<string,Menu>()
-const REFRESH_MS=5*60*1000
+const REFRESH_MS=7*24*60*60*1000
 const categoryPriority:Record<string,number>={'Main dishes':0,'Specials':1,'Soups':2,'Salads':3,'Starters':4,'Side dishes':6,'Desserts':7}
 const today=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())
 const initialDate=(week:string)=>weekStart(today())===week?today():week
@@ -16,7 +16,7 @@ export function Mensa({week,setWeek}:{week:string;setWeek:(value:string)=>void})
  useEffect(()=>{setDate(d=>weekStart(d)===week?d:initialDate(week))},[week])
  useEffect(()=>{setMenu(null)},[date])
  useEffect(()=>{
-  const refresh=()=>{if(document.visibilityState==='hidden')return;cache.delete(date);setRetry(v=>v+1)}
+  const refresh=()=>{if(document.visibilityState==='hidden')return;const stored=cache.get(date);if(stored&&Date.now()-stored.fetchedAt<REFRESH_MS)return;setRetry(v=>v+1)}
   const interval=setInterval(refresh,REFRESH_MS)
   document.addEventListener('visibilitychange',refresh)
   return ()=>{clearInterval(interval);document.removeEventListener('visibilitychange',refresh)}

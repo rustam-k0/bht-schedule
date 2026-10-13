@@ -59,11 +59,14 @@ it('refreshes automatically, retains the menu on failure and stops on unmount',a
  try{
  await act(async()=>root.render(<Mensa week="2035-01-01" setWeek={()=>{}}/>))
  expect(host.textContent).toContain('€0.75')
+ const calls=fetcher.mock.calls.length
+ await act(async()=>{document.dispatchEvent(new Event('visibilitychange'))})
+ expect(fetcher).toHaveBeenCalledTimes(calls)
  fetcher.mockImplementation(async(url:string)=>({ok:true,status:200,json:async()=>url.endsWith('/meals')?[{id:1,name:'Linsensuppe',category:'Suppen',prices:{students:1.25},notes:[]}]:{closed:false}}))
- await act(async()=>{await vi.advanceTimersByTimeAsync(5*60*1000)})
+ await act(async()=>{await vi.advanceTimersByTimeAsync(7*24*60*60*1000)})
  expect(host.textContent).toContain('€1.25')
  fetcher.mockRejectedValue(new Error('Network'))
- await act(async()=>{await vi.advanceTimersByTimeAsync(5*60*1000)})
+ await act(async()=>{await vi.advanceTimersByTimeAsync(7*24*60*60*1000)})
  expect(host.textContent).toContain('€1.25')
  expect(host.querySelector('[role="alert"]')!.textContent).toContain('Showing the last retrieved menu')
  await act(async()=>root.unmount())
