@@ -49,3 +49,24 @@ it('shows loading and ignores obsolete requests when the timetable week changes'
  expect(setWeek).toHaveBeenLastCalledWith('2032-02-16')
  }finally{act(()=>root.unmount());vi.unstubAllGlobals()}
 })
+
+it('refreshes automatically, retains the menu on failure and stops on unmount',async()=>{
+ vi.useFakeTimers()
+ Object.assign(globalThis,{IS_REACT_ACT_ENVIRONMENT:true})
+ const fetcher=vi.fn(async(url:string)=>({ok:true,status:200,json:async()=>url.endsWith('/meals')?[{id:1,name:'Linsensuppe',category:'Suppen',prices:{students:0.75},notes:[]}]:{closed:false}}))
+ vi.stubGlobal('fetch',fetcher)
+ const host=document.createElement('div'),root=createRoot(host)
+ try{
+ await act(async()=>root.render(<Mensa week="2035-01-01" setWeek={()=>{}}/>))
+ expect(host.textContent).toContain('€0.75')
+ fetcher.mockImplementation(async(url:string)=>({ok:true,status:200,json:async()=>url.endsWith('/meals')?[{id:1,name:'Linsensuppe',category:'Suppen',prices:{students:1.25},notes:[]}]:{closed:false}}))
+ await act(async()=>{await vi.advanceTimersByTimeAsync(5*60*1000)})
+ expect(host.textContent).toContain('€1.25')
+ fetcher.mockRejectedValue(new Error('Network'))
+ await act(async()=>{await vi.advanceTimersByTimeAsync(5*60*1000)})
+ expect(host.textContent).toContain('€1.25')
+ expect(host.querySelector('[role="alert"]')!.textContent).toContain('Showing the last retrieved menu')
+ await act(async()=>root.unmount())
+ expect(vi.getTimerCount()).toBe(0)
+ }finally{vi.useRealTimers();vi.unstubAllGlobals()}
+})

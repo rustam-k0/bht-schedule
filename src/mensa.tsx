@@ -7,19 +7,27 @@ const OFFICIAL='https://www.stw.berlin/mensen/einrichtungen/berliner-hochschule-
 type Meal={id:number;name:string;category:string;prices:Record<string,number|null>;notes:string[]}
 type Menu={meals:Meal[];closed:boolean;fetchedAt:number}
 const cache=new Map<string,Menu>()
+const REFRESH_MS=5*60*1000
 const categoryPriority:Record<string,number>={'Main dishes':0,'Specials':1,'Soups':2,'Salads':3,'Starters':4,'Side dishes':6,'Desserts':7}
 const today=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())
 const initialDate=(week:string)=>weekStart(today())===week?today():week
 export function Mensa({week,setWeek}:{week:string;setWeek:(value:string)=>void}){
  const [date,setDate]=useState(()=>initialDate(week)),[menu,setMenu]=useState<Menu|null>(null),[error,setError]=useState(''),[loading,setLoading]=useState(true),[retry,setRetry]=useState(0)
  useEffect(()=>{setDate(d=>weekStart(d)===week?d:initialDate(week))},[week])
+ useEffect(()=>{setMenu(null)},[date])
+ useEffect(()=>{
+  const refresh=()=>{if(document.visibilityState==='hidden')return;cache.delete(date);setRetry(v=>v+1)}
+  const interval=setInterval(refresh,REFRESH_MS)
+  document.addEventListener('visibilitychange',refresh)
+  return ()=>{clearInterval(interval);document.removeEventListener('visibilitychange',refresh)}
+ },[date])
  useEffect(()=>{
   const controller=new AbortController();let active=true
-  setError('');setMenu(null);setLoading(true)
+  setError('');setLoading(true)
   const timeout=setTimeout(()=>controller.abort(),15000)
   async function load(){
    const stored=cache.get(date)
-   if(stored&&Date.now()-stored.fetchedAt<5*60*1000)return stored
+   if(stored&&Date.now()-stored.fetchedAt<REFRESH_MS)return stored
    const response=await fetch(`${API}/days/${date}`,{signal:controller.signal})
    if(response.status===404)return {meals:[],closed:false,fetchedAt:Date.now()}
    if(!response.ok)throw new Error('Menu unavailable')
@@ -36,7 +44,7 @@ export function Mensa({week,setWeek}:{week:string;setWeek:(value:string)=>void})
  return <div className="page mensa-page"><div className="headline"><div><h1>Canteen</h1><p>Mensa BHT Luxemburger Straße · Luxemburger Straße 9, 13353 Berlin</p></div><a href={OFFICIAL} target="_blank" rel="noreferrer">Official menu ↗</a></div>
  <p className="mensa-source">Timetable week: {formatDate(week)} – {formatDate(shiftDate(week,6))}</p><div className="week-controls"><button aria-label="Previous week" onClick={()=>choose(shiftDate(date,-7))}>Previous week</button><button aria-label="Next week" onClick={()=>choose(shiftDate(date,7))}>Next week</button><button aria-label="Previous menu day" onClick={()=>choose(shiftDate(date,-1))}>←</button><button onClick={()=>choose(today())}>Today</button><button aria-label="Next menu day" onClick={()=>choose(shiftDate(date,1))}>→</button><label>Menu date <input aria-label="Menu date" type="date" value={date} onChange={e=>choose(e.target.value)}/></label></div>
  <p className="mensa-source">{formatDate(date)} · Source: <a href="https://openmensa.org/c/2027" target="_blank" rel="noreferrer">OpenMensa</a>{menu&&` · Retrieved ${new Date(menu.fetchedAt).toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Berlin'})} (Berlin)`}. Menus may change. English translations use a curated glossary and MyMemory; translation errors are possible.</p>
- {loading&&<p role="status">Loading menu…</p>}{error&&<div role="alert"><p>{error}</p><button onClick={()=>{cache.delete(date);setRetry(v=>v+1)}}>Try again</button></div>}
+ {loading&&!menu&&<p role="status">Loading menu…</p>}{error&&<div role="alert"><p>{menu?'Could not refresh the menu. Showing the last retrieved menu; it may be outdated.':error}</p><button onClick={()=>{cache.delete(date);setRetry(v=>v+1)}}>Try again</button></div>}
  {menu?.closed&&<p>The canteen is closed on this date.</p>}{menu&&!menu.closed&&!menu.meals.length&&<p>No menu published for this date. Check the official menu for current information.</p>}
  {categories.map(category=><section className="mensa-category" key={category}><h2>{category}</h2><div className="mensa-meals">{menu!.meals.filter(m=>m.category===category).map(meal=><article key={meal.id}><div className="mensa-meal-heading"><h3>{meal.name}</h3></div><dl className="mensa-prices">{[['students','Students'],['employees','Employees'],['others','Guests']].map(([role,label])=><div key={role}><dt>{label}</dt><dd>{typeof meal.prices[role]==='number'&&Number.isFinite(meal.prices[role])?new Intl.NumberFormat('en-GB',{style:'currency',currency:'EUR'}).format(meal.prices[role]!):'Price unavailable'}</dd></div>)}</dl>{meal.notes.length>0&&<details><summary>Allergens and dietary information</summary><ul>{meal.notes.map((note,i)=><li key={i}>{note}</li>)}</ul></details>}</article>)}</div></section>)}
  </div>
