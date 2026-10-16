@@ -3,7 +3,7 @@
 Локальное приложение для анализа расписания Medieninformatik B.Sc. за Wintersemester 2026/27.
 
 ```bash
-cd "/Users/damirahavaashova/Desktop/3 semester/bht-schedule"
+cd "/Users/damirahavaashova/Desktop/semester_3/support/bht-schedule"
 npm ci
 npm run setup:python
 npm run import
@@ -17,11 +17,11 @@ Python-зависимости устанавливаются в локальну
 - `../plan/source-exports/01-schedule.mhtml`–`05-schedule.mhtml` — исходные выгрузки расписания.
 - `../plan/module-handbook.pdf` — справочник модулей.
 - `../plan/source-extracts/module-handbook.txt` — извлечённый текст для импорта.
-- `../web-engineering-2/track-2-von-klinski/01-lectures/` — PDF и план учебных недель Web Engineering II.
-- `../project/groups.xlsx` — исходная таблица проектных групп; приложение показывает агрегированные данные.
+- `../not-selected/web-engineering-2/track-2-von-klinski/01-lectures` — PDF и план учебных недель Web Engineering II.
+- `../not-selected/project/groups.xlsx` — исходная таблица проектных групп; приложение показывает агрегированные данные.
 - `source-extracts/` внутри соответствующего предмета и потока — ранее извлечённые тексты и изображения.
 
-Импорт читает выгрузки и извлечённый текст из `../plan/source-exports/` и `../plan/source-extracts/`, затем создаёт `public/data/schedule.json` и `public/data/extraction-report.json`. Сохраняйте приложение рядом с учебными папками для повторного импорта. Для работы интерфейса достаточно готовых данных из `public/data/`.
+Импорт читает выгрузки и извлечённый текст из `../plan/source-exports` и `../plan/source-extracts`, затем создаёт `public/data/schedule.json` и `public/data/extraction-report.json`. Сохраняйте приложение в support/bht-schedule, планирование в support/plan, а выбранные предметы на верхнем уровне workspace для повторного импорта. Для работы интерфейса достаточно готовых данных из `public/data/`.
 
 Если извлечённый текст отсутствует, подготовьте его с помощью установленного `pdftotext` (Poppler):
 
@@ -38,7 +38,7 @@ pdftotext -layout "../plan/module-handbook.pdf" "../plan/source-extracts/module-
 course excerpts identified by mailbox, UIDVALIDITY, UID, date and subject.
 `../plan/source-extracts/email-import-2026-10-08.json` contains curated facts with
 explicit track scope, uncertainty, tasks, exam confirmations and personal planning.
-Recognition PDFs remain in `../plan/source-exports/recognition/`.
+Recognition PDFs remain in `../plan/source-exports/recognition`.
 
 Run `npm run import`, then `npm run build:course-db` to reproduce all five data files:
 schedule, course database, extraction report, homework and personal planning.

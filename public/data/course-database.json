@@ -154,7 +154,7 @@
             ],
             "sources": [
               {
-                "file": "../theoretical-cs/shared/source-extracts/organization-pages/organization.txt",
+                "file": "../../theoretical-cs/source-extracts/organization-pages/organization.txt",
                 "scope": "Organization and assessment rules for GTI track 2",
                 "updatedAt": "2026-10-01"
               }
@@ -264,7 +264,7 @@
             ],
             "sources": [
               {
-                "file": "../theoretical-cs/shared/source-extracts/organization-pages/organization.txt",
+                "file": "../../theoretical-cs/source-extracts/organization-pages/organization.txt",
                 "scope": "Organization and assessment rules for GTI track 2",
                 "updatedAt": "2026-10-01"
               },
@@ -583,7 +583,7 @@
             ],
             "sources": [
               {
-                "file": "../media-design/track-2-schiffers/source-extracts/course-plan.txt",
+                "file": "../not-selected/media-design/track-2-schiffers/source-extracts/course-plan.txt",
                 "scope": "Moodle course plan and assessment rules for track 2",
                 "updatedAt": "2026-04-03"
               },
@@ -796,7 +796,7 @@
         ],
         "sources": [
           {
-            "file": "../programming-2/unassigned/source-extracts/group-planning-2026-10-07.txt",
+            "file": "../../programming-2/unassigned/source-extracts/group-planning-2026-10-07.txt",
             "scope": "Manual transcription of visible screenshot: p2-wise26 / Organisatorisches / Planung der Gruppen; track unknown",
             "updatedAt": "2026-10-07"
           }
@@ -1495,11 +1495,11 @@
             ],
             "sources": [
               {
-                "file": "../software-engineering-2/track-1-graupner/02-seminars/homework-1-a15/technical/a15-setup.png",
+                "file": "../../software-engineering-2/02-seminars/homework-1-a15/technical/a15-setup.png",
                 "scope": "Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules"
               },
               {
-                "file": "../software-engineering-2/track-1-graupner/02-seminars/homework-1-a15/technical/README.md",
+                "file": "../../software-engineering-2/02-seminars/homework-1-a15/technical/README.md",
                 "scope": "Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a",
                 "updatedAt": "2026-10-07"
               }
@@ -1623,7 +1623,7 @@
         "deadlines": [],
         "sources": [
           {
-            "file": "../software-engineering-2/unassigned/source-extracts/assessment-2026-10-09.txt",
+            "file": "../../software-engineering-2/unassigned/source-extracts/assessment-2026-10-09.txt",
             "scope": "User message: 60/40 activity and exam; final grade calculated even when the exam is not passed; track unknown",
             "updatedAt": "2026-10-09"
           }
@@ -1790,7 +1790,7 @@
             ],
             "sources": [
               {
-                "file": "../web-engineering-2/track-1-von-pilgrim/source-extracts/assessment-rules/assessment-rules.txt",
+                "file": "../../web-engineering-2/source-extracts/assessment-rules/assessment-rules.txt",
                 "scope": "Assessment and submission rules for Web Engineering II track 1",
                 "updatedAt": "2026-09-16"
               },
@@ -1988,12 +1988,12 @@
             ],
             "sources": [
               {
-                "file": "../web-engineering-2/track-2-von-klinski/source-extracts/assessment-rules-v17/assessment-rules-v17.txt",
+                "file": "../not-selected/web-engineering-2/track-2-von-klinski/source-extracts/assessment-rules-v17/assessment-rules-v17.txt",
                 "scope": "Project assessment rules for Web Engineering II track 2",
                 "updatedAt": "2026-09-08"
               },
               {
-                "file": "../web-engineering-2/track-2-von-klinski/01-lectures/course-schedule.png",
+                "file": "../not-selected/web-engineering-2/track-2-von-klinski/01-lectures/course-schedule.png",
                 "scope": "Teaching weeks, milestones, learning checks and exams for Web Engineering II track 2"
               }
             ]
@@ -2072,7 +2072,7 @@
         "privacyNote": "Student names, emails and IDs are excluded.",
         "sources": [
           {
-            "file": "../project/groups.xlsx",
+            "file": "../not-selected/project/groups.xlsx",
             "scope": "Project choices and group totals as of 4 Oct 2026"
           }
         ]

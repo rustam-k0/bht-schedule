@@ -22,8 +22,8 @@ const enrichment={
     'Show each validation in the exercise class and record acceptance in the completion list. Moodle or email submissions are not accepted.',
    ],
    sources:[
-    source('../software-engineering-2/track-1-graupner/02-seminars/homework-1-a15/technical/a15-setup.png','Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules'),
-    source('../software-engineering-2/track-1-graupner/02-seminars/homework-1-a15/technical/README.md','Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a','2026-10-07'),
+    source('../../software-engineering-2/02-seminars/homework-1-a15/technical/a15-setup.png','Moodle Aufgabe A15: opening, deadline, points, Java-only scope and acceptance rules'),
+    source('../../software-engineering-2/02-seminars/homework-1-a15/technical/README.md','Assignment overview A1–A5; repository revision 6804b02f2626c39ab0e87514219bb6c4b77a299a','2026-10-07'),
    ],
   },
  },
@@ -48,7 +48,7 @@ const enrichment={
     'Groups may merge if attendance repeatedly falls to 5 people or fewer.',
     'Know at least the definitions for the second exam period. Register through the Moodle poll.',
    ],
-   sources:[source('../theoretical-cs/shared/source-extracts/organization-pages/organization.txt','Organization and assessment rules for GTI track 2','2026-10-01')],
+   sources:[source('../../theoretical-cs/source-extracts/organization-pages/organization.txt','Organization and assessment rules for GTI track 2','2026-10-01')],
   },
  },
  'Mediendesign Grundlagen':{
@@ -83,7 +83,7 @@ const enrichment={
     'The course covers UX/UI, digital interfaces and prototyping. Practice work mainly uses Figma.',
     'The grade includes the final project, talk, attendance and participation.',
    ],
-   sources:[source('../media-design/track-2-schiffers/source-extracts/course-plan.txt','Moodle course plan and assessment rules for track 2','2026-04-03')],
+   sources:[source('../not-selected/media-design/track-2-schiffers/source-extracts/course-plan.txt','Moodle course plan and assessment rules for track 2','2026-04-03')],
   },
  },
  'Web Engineering II':{
@@ -118,7 +118,7 @@ const enrichment={
     'Understand, explain and reproduce all generated code.',
    ],
    submission:['npm run abgabe creates the ZIP for Moodle.','npm run build must finish without errors.','npm test must pass with the required coverage.'],
-   sources:[source('../web-engineering-2/track-1-von-pilgrim/source-extracts/assessment-rules/assessment-rules.txt','Assessment and submission rules for Web Engineering II track 1','2026-09-16')],
+   sources:[source('../../web-engineering-2/source-extracts/assessment-rules/assessment-rules.txt','Assessment and submission rules for Web Engineering II track 1','2026-09-16')],
   },
   2:{
    scope:'Practice rules from Prof. Dr. Sebastian von Klinski for track 2; the document does not specify the exam weight in the module grade',
@@ -179,7 +179,7 @@ const enrichment={
     'TypeScript is required. At least 50% of variables and functions must have explicit types.',
     'At the final milestone, ESLint must report 0 errors and no more than 15 warnings.',
    ],
-   sources:[source('../web-engineering-2/track-2-von-klinski/source-extracts/assessment-rules-v17/assessment-rules-v17.txt','Project assessment rules for Web Engineering II track 2','2026-09-08'),source('../web-engineering-2/track-2-von-klinski/01-lectures/course-schedule.png','Teaching weeks, milestones, learning checks and exams for Web Engineering II track 2')],
+   sources:[source('../not-selected/web-engineering-2/track-2-von-klinski/source-extracts/assessment-rules-v17/assessment-rules-v17.txt','Project assessment rules for Web Engineering II track 2','2026-09-08'),source('../not-selected/web-engineering-2/track-2-von-klinski/01-lectures/course-schedule.png','Teaching weeks, milestones, learning checks and exams for Web Engineering II track 2')],
   },
  },
 }
@@ -241,7 +241,7 @@ const subjects=schedule.modules.map(module=>{
     'The final grade is calculated even if the exam is not passed; this does not establish automatic passing of the module.',
    ],
    deadlines:[],
-   sources:[source('../software-engineering-2/unassigned/source-extracts/assessment-2026-10-09.txt','User message: 60/40 activity and exam; final grade calculated even when the exam is not passed; track unknown','2026-10-09')],
+   sources:[source('../../software-engineering-2/unassigned/source-extracts/assessment-2026-10-09.txt','User message: 60/40 activity and exam; final grade calculated even when the exam is not passed; track unknown','2026-10-09')],
   }
  }
  if(module.name==='Programmierung II'){
@@ -255,7 +255,7 @@ const subjects=schedule.modules.map(module=>{
     'The activity shows opening on 2026-10-07 at 15:24 and closing on 2026-10-10 at 15:24. The written registration deadline is earlier: 2026-10-09 at 23:55.',
     'Original screenshot and organization PDF were unavailable at the supplied filesystem paths. Screenshot facts were transcribed from the visible conversation attachment; the PDF has not been imported.',
    ],
-   sources:[source('../programming-2/unassigned/source-extracts/group-planning-2026-10-07.txt','Manual transcription of visible screenshot: p2-wise26 / Organisatorisches / Planung der Gruppen; track unknown','2026-10-07')],
+   sources:[source('../../programming-2/unassigned/source-extracts/group-planning-2026-10-07.txt','Manual transcription of visible screenshot: p2-wise26 / Organisatorisches / Planung der Gruppen; track unknown','2026-10-07')],
   }
  }
  if(module.name==='Projekt'){
@@ -264,7 +264,7 @@ const subjects=schedule.modules.map(module=>{
    signupSnapshot:{studentsTotal:75,assigned:8,unassigned:67,countsByProject:{Dialekt:2,DienstWeb:6}},
    examiners:[...new Set(module.examSlots.map(slot=>slot.examiner))],
    privacyNote:'Student names, emails and IDs are excluded.',
-   sources:[source('../project/groups.xlsx','Project choices and group totals as of 4 Oct 2026')],
+   sources:[source('../not-selected/project/groups.xlsx','Project choices and group totals as of 4 Oct 2026')],
   }
  }
  return base
