@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:35:04.421249+00:00",
+  "generatedAt": "2026-10-17T09:22:37.197804+00:00",
   "sourceFiles": [
     "../plan/source-exports/01-schedule.mhtml",
     "../plan/source-exports/02-schedule.mhtml",
@@ -11,6 +11,7 @@
     "../plan/source-extracts/exam-notifications-2026-10-07.txt",
     "../plan/source-extracts/exam-notifications-2026-10-09.json",
     "../plan/academic-calendar/2026-10-09-computer-graphics-exam-notices.md",
+    "../plan/source-extracts/exam-date-updates-2026-10-17.json",
     "../plan/source-extracts/email-import-2026-10-08.json",
     "../plan/source-extracts/email-course-facts-2026-10-08.json",
     "../plan/source-exports/recognition/01-application.pdf",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "term": "Wintersemester 2026/27",
-  "generatedAt": "2026-10-09T11:35:04.420823+00:00",
+  "generatedAt": "2026-10-17T09:22:37.197415+00:00",
   "modules": [
     {
       "moduleId": "mod-b6c0641708",
@@ -370,11 +370,11 @@
           "nachVereinbarung": false,
           "date": "2027-01-29",
           "weekday": "FR",
-          "start": "10:00:51",
-          "end": "11:30:51",
+          "start": "10:00",
+          "end": "11:30",
           "source": {
-            "sourceFile": "../plan/source-exports/exam-notifications/196587.ics",
-            "fragment": "INBOX UIDVALIDITY 1784956070, UID 83; 196587.ics; Grundlagen der Theoretischen Informatik, track(s) [2]; email body and ICS independently verified on 2026-10-08; timezone not stated."
+            "sourceFile": "../plan/source-extracts/exam-date-updates-2026-10-17.json",
+            "fragment": "Grundlagen der Theoretischen Informatik, Zug 2. Official BHT page checked 2026-10-17; minute precision supersedes email seconds: https://polli.bht-berlin.de/exams/exam196587"
           },
           "room": "Vorlesungsraum",
           "zugs": [
@@ -700,15 +700,19 @@
           "gvParallelGroup": 1,
           "teacherId": "teacher-e45ce8e371",
           "examiner": "Constanze Zahn",
-          "nachVereinbarung": true,
-          "date": null,
-          "weekday": null,
+          "nachVereinbarung": false,
+          "date": "2027-01-26",
+          "weekday": "TU",
           "start": null,
           "end": null,
           "source": {
-            "sourceFile": "../plan/source-exports/01-schedule.mhtml",
-            "fragment": "1. Parallelgruppe (GV: 1. Parallelgruppe) | nach Vereinbarung | Prüfer/-in | Constanze Zahn"
-          }
+            "sourceFile": "../plan/source-extracts/exam-date-updates-2026-10-17.json",
+            "fragment": "Mediendesign Grundlagen, Constanze Zahn, Zug 1. User instruction on 2026-10-17: record 26 January (2027 follows WiSe 2026/27). Time and room unknown; not confirmed by BHT website."
+          },
+          "room": null,
+          "zugs": [
+            1
+          ]
         },
         {
           "examSlotId": "exam-7c8e149e5b",
@@ -1422,15 +1426,19 @@
           "gvParallelGroup": 2,
           "teacherId": "teacher-25411f73dd",
           "examiner": "Prof. Dr. Rüdiger Weis",
-          "nachVereinbarung": true,
-          "date": null,
-          "weekday": null,
-          "start": null,
-          "end": null,
+          "nachVereinbarung": false,
+          "date": "2027-01-20",
+          "weekday": "WE",
+          "start": "17:45",
+          "end": "19:15",
           "source": {
-            "sourceFile": "../plan/source-exports/02-schedule.mhtml",
-            "fragment": "1. Parallelgruppe (GV: 2. Parallelgruppe) | nach Vereinbarung | Prüfer/-in | Prof. Dr. Rüdiger Weis"
-          }
+            "sourceFile": "../plan/source-extracts/exam-date-updates-2026-10-17.json",
+            "fragment": "Betriebssysteme, Zug 2, first exam period. Official BHT page checked 2026-10-17: https://polli.bht-berlin.de/exams/exam196615"
+          },
+          "room": "D138",
+          "zugs": [
+            2
+          ]
         },
         {
           "examSlotId": "exam-58b3054079",
@@ -4335,11 +4343,11 @@
       "nachVereinbarung": false,
       "date": "2027-01-29",
       "weekday": "FR",
-      "start": "10:00:51",
-      "end": "11:30:51",
+      "start": "10:00",
+      "end": "11:30",
       "source": {
-        "sourceFile": "../plan/source-exports/exam-notifications/196587.ics",
-        "fragment": "INBOX UIDVALIDITY 1784956070, UID 83; 196587.ics; Grundlagen der Theoretischen Informatik, track(s) [2]; email body and ICS independently verified on 2026-10-08; timezone not stated."
+        "sourceFile": "../plan/source-extracts/exam-date-updates-2026-10-17.json",
+        "fragment": "Grundlagen der Theoretischen Informatik, Zug 2. Official BHT page checked 2026-10-17; minute precision supersedes email seconds: https://polli.bht-berlin.de/exams/exam196587"
       },
       "room": "Vorlesungsraum",
       "zugs": [
@@ -4372,15 +4380,19 @@
       "gvParallelGroup": 1,
       "teacherId": "teacher-e45ce8e371",
       "examiner": "Constanze Zahn",
-      "nachVereinbarung": true,
-      "date": null,
-      "weekday": null,
+      "nachVereinbarung": false,
+      "date": "2027-01-26",
+      "weekday": "TU",
       "start": null,
       "end": null,
       "source": {
-        "sourceFile": "../plan/source-exports/01-schedule.mhtml",
-        "fragment": "1. Parallelgruppe (GV: 1. Parallelgruppe) | nach Vereinbarung | Prüfer/-in | Constanze Zahn"
-      }
+        "sourceFile": "../plan/source-extracts/exam-date-updates-2026-10-17.json",
+        "fragment": "Mediendesign Grundlagen, Constanze Zahn, Zug 1. User instruction on 2026-10-17: record 26 January (2027 follows WiSe 2026/27). Time and room unknown; not confirmed by BHT website."
+      },
+      "room": null,
+      "zugs": [
+        1
+      ]
     },
     {
       "examSlotId": "exam-7c8e149e5b",
@@ -4516,15 +4528,19 @@
       "gvParallelGroup": 2,
       "teacherId": "teacher-25411f73dd",
       "examiner": "Prof. Dr. Rüdiger Weis",
-      "nachVereinbarung": true,
-      "date": null,
-      "weekday": null,
-      "start": null,
-      "end": null,
+      "nachVereinbarung": false,
+      "date": "2027-01-20",
+      "weekday": "WE",
+      "start": "17:45",
+      "end": "19:15",
       "source": {
-        "sourceFile": "../plan/source-exports/02-schedule.mhtml",
-        "fragment": "1. Parallelgruppe (GV: 2. Parallelgruppe) | nach Vereinbarung | Prüfer/-in | Prof. Dr. Rüdiger Weis"
-      }
+        "sourceFile": "../plan/source-extracts/exam-date-updates-2026-10-17.json",
+        "fragment": "Betriebssysteme, Zug 2, first exam period. Official BHT page checked 2026-10-17: https://polli.bht-berlin.de/exams/exam196615"
+      },
+      "room": "D138",
+      "zugs": [
+        2
+      ]
     },
     {
       "examSlotId": "exam-58b3054079",

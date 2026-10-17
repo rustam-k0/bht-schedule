@@ -66,6 +66,17 @@ def import_exam_notifications(modules):
                 room=record["room"], nachVereinbarung=False, zugs=record["zugs"],
                 source=source(record.get("sourceFile", source_path(path)), record.get("fragment") or f"Notification {record['notificationId']}.ics; screenshot 2026-10-07 {record['screenshotTime']}; track(s) {record['zugs']}; timezone not stated"))
 
+def import_exam_date_updates(modules):
+  path = ROOT.parent / "plan/source-extracts/exam-date-updates-2026-10-17.json"
+  records = json.loads(path.read_text())
+  slots = {e["examSlotId"]: e for m in modules for e in m["examSlots"]}
+  for record in records:
+    slot = slots[record["examSlotId"]]
+    slot.update({key: record[key] for key in ("date", "start", "end", "room", "zugs")})
+    slot["weekday"] = ["MO", "TU", "WE", "TH", "FR", "SA", "SU"][__import__("datetime").date.fromisoformat(record["date"]).weekday()]
+    slot["nachVereinbarung"] = False
+    slot["source"] = source(source_path(path), record["fragment"])
+
 def source_path(path):
   return "../" + path.relative_to(ROOT.parent).as_posix()
 OUT = ROOT / "public" / "data"
@@ -195,10 +206,12 @@ def main():
     for e in m["examSlots"]: teachers[e["teacherId"]]={"teacherId":e["teacherId"],"name":e["examiner"]}; all_exams.append(e)
   import_exam_notifications(modules)
   email_summary = import_email_exam_sources(modules)
+  import_exam_date_updates(modules)
   missing=set(TARGETS)-{m["name"] for m in modules}
   warnings += [{"code":"MISSING_MODULE","message":f"Missing subject: {n}"} for n in sorted(missing)]
   data={"schemaVersion":1,"term":"Wintersemester 2026/27","generatedAt":__import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),"modules":modules,"meetings":all_meetings,"examSlots":all_exams,"teachers":sorted(teachers.values(),key=lambda x:x["name"])}
   report={"generatedAt":__import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),"sourceFiles":[source_path(p) for p in sorted(DOCS.glob("0[1-5]-schedule.mhtml"))]+[source_path(MODULE_PDF),"../plan/source-extracts/exam-notifications-2026-10-07.json","../plan/source-extracts/exam-notifications-2026-10-07.txt","../plan/source-extracts/exam-notifications-2026-10-09.json","../plan/academic-calendar/2026-10-09-computer-graphics-exam-notices.md"],"found":found,"counts":{"modules":len(modules),"courses":sum(len(m["courses"]) for m in modules),"groups":sum(len(c["groups"]) for m in modules for c in m["courses"]),"meetings":len(all_meetings),"examSlots":len(all_exams)},"duplicates":duplicates,"warnings":warnings,"unresolvedFields":[{"field":"room","count":sum(x["room"]=="—" for x in all_meetings),"reason":"No room in the source"}]}
+  report["sourceFiles"].append("../plan/source-extracts/exam-date-updates-2026-10-17.json")
   if email_summary:
     facts = json.loads(EMAIL_IMPORT.read_text())
     report["emailImport"] = email_summary
