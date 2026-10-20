@@ -88,8 +88,8 @@ const enrichment={
     'At the lesson, group allocation was pending, with an update expected on the evening of 20 October or morning of 21 October. The team prefers the earliest exercise group after the seminar; this is not a confirmed allocation.',
    ],
    sources:[
-    source('../../media_design/03-idea-concept/seminars/u02/work/bht-together-concept.pptx','Student-authored U02, slides 1–11: app and group names, idea, personas, functions and USP; import does not establish submission or approval','2026-10-20'),
-    source('../../media_design/04-information-architecture/seminars/u03/work/bht-together-information-architecture.pptx','Student-authored U03, slides 1–4: concept and four-area information architecture; import does not establish submission or approval','2026-10-20'),
+    source('../../media_design/03-idea-concept/seminars/u02/sources/bht-together-concept.pptx','Student-authored U02, slides 1–11: app and group names, idea, personas, functions and USP; import does not establish submission or approval','2026-10-20'),
+    source('../../media_design/04-information-architecture/seminars/u03/sources/bht-together-information-architecture.pptx','Student-authored U03, slides 1–4: concept and four-area information architecture; import does not establish submission or approval','2026-10-20'),
     source('../../media_design/00-course/notes.md','User-supplied 2026-10-20 lesson notes: oral expectations, consistent formatting, retrospective revisions, late-work advice, approximate feedback cadence, pending group allocation and user-confirmed group name chai; no change to written assessment weights or deadlines','2026-10-20'),
     source('../../media_design/00-course/introduction.pdf','Zahn Zug 1: pp. 4, 6, 9–18; assessment, project, provisional plan and conflicting dates','2026-10-20'),
     source('../../media_design/00-course/exercise-welcome.pdf','p. 1: Zug 1 second parallel group, rooms, times and communication','2026-10-20'),
