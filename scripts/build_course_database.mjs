@@ -69,6 +69,8 @@ const enrichment={
    ],
    workloadRules:[
     'Develop a BHT campus-app design with Location Based Services and a clickable Figma prototype.',
+    'User-reported lesson guidance (2026-10-20): attend seminars, participate, demonstrate teamwork and progress; use one project name and consistent template, navigation and visual structure across exercises, updating earlier exercises when the template changes.',
+    'Prepare earlier and late exercises for assessment; the lesson notes do not confirm late acceptance, waived penalties or changed written deadlines.',
     'U01 is individual work: compare three applications, with 3–4 informative screenshots each, positive/negative analysis and a conclusion.',
     'From U02 onward work in a three-person team. U02 covers the idea, three personas, functions and USP; U03 covers information architecture and a digital navigation tree.',
     'Create a Figma Education account in October and upload screenshot proof. Follow the assignment-specific PDF cover, footer and filename rules.',
@@ -81,8 +83,11 @@ const enrichment={
     'Provisional teaching plan: 2026-10-20 ideas/U02; 2026-10-27 information structure/U03. These teaching dates do not establish submission deadlines.',
     'Source conflicts: group formation says Thursday 16.10.26 (weekday mismatch); introduction p. 14 duplicates Responsive Design and the 12 January presentation date; Moodle specifies Medienfassaden and 26 January instead. The provisional plan contains impossible 31.11.26; no replacement inferred.',
     'Historical student examples are inspiration only and do not establish current assessment rules or track membership.',
+    'User-reported lesson guidance (2026-10-20): prioritize active project work through December; less teacher contact is expected in January, without canceling confirmed presentations. Exercise discussions are approximately fortnightly, about 20 minutes per team; no recurring schedule is confirmed.',
+    'At the lesson, group allocation was pending, with an update expected on the evening of 20 October or morning of 21 October. The team prefers the earliest exercise group after the seminar; this is not a confirmed allocation.',
    ],
    sources:[
+    source('../../media_design/00-course/notes.md','User-supplied 2026-10-20 lesson notes: oral expectations, consistent formatting, retrospective revisions, late-work advice, approximate feedback cadence and pending group allocation; no change to written assessment weights or deadlines','2026-10-20'),
     source('../../media_design/00-course/introduction.pdf','Zahn Zug 1: pp. 4, 6, 9–18; assessment, project, provisional plan and conflicting dates','2026-10-20'),
     source('../../media_design/00-course/exercise-welcome.pdf','p. 1: Zug 1 second parallel group, rooms, times and communication','2026-10-20'),
     source('../../media_design/00-course/presentation-groups.pdf','p. 1: group deadline and advance presentation-PDF upload by Monday 19:00','2026-10-20'),
