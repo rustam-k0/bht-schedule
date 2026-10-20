@@ -52,6 +52,49 @@ const enrichment={
   },
  },
  'Mediendesign Grundlagen':{
+  1:{
+   scope:'Zahn, Zug 1 seminar and supplied Zug 1 second-parallel-group exercise Moodle exports; WiSe 2026/27, reviewed 2026-10-20',
+   actualAssessment:{
+    components:[{label:'Presentation',percent:30},{label:'Active seminar participation',percent:20},{label:'Exercises',percent:20},{label:'Semester project and final presentation',percent:30}],
+    passConditions:['Submit exercises punctually and successfully; attend project discussions and the final presentation.'],
+   },
+   deadlines:[
+    {date:'2026-10-12',label:'U01 individual research PDF — written deadline 23:00; submitted 2026-10-13 19:29, marked late and not graded in the snapshot',mandatory:true},
+    {date:'2026-10-20',label:'Topic selection and participation team photos by 20:00; separate group-formation page states 16 October 16:00 (conflicting source)',mandatory:true},
+    {date:'2026-11-16',label:'Mobile Interfaces presentation PDF by 19:00, Monday before the confirmed 17 November presentation',mandatory:true},
+    {date:'2026-11-17',label:'Mobile Interfaces presentation; eight minutes per person in a three-person team',mandatory:true},
+    {date:'2026-12-15',label:'Intermediate project submission; provisional plan, no in-person class; time unspecified',mandatory:true},
+    {date:'2027-02-02',label:'Final presentation; attendance required',mandatory:true},
+    {date:null,label:'Figma Education proof, U02 and U03: only relative countdowns shown; exact deadlines unconfirmed',mandatory:true},
+   ],
+   workloadRules:[
+    'Develop a BHT campus-app design with Location Based Services and a clickable Figma prototype.',
+    'U01 is individual work: compare three applications, with 3–4 informative screenshots each, positive/negative analysis and a conclusion.',
+    'From U02 onward work in a three-person team. U02 covers the idea, three personas, functions and USP; U03 covers information architecture and a digital navigation tree.',
+    'Create a Figma Education account in October and upload screenshot proof. Follow the assignment-specific PDF cover, footer and filename rules.',
+    'General introduction guidance says submissions are usually Monday 22:00; explicit activity instructions take precedence.',
+   ],
+   keyFacts:[
+    'Seminar: Tuesday 14:15–15:45, B 412. Supplied exercise source: Zug 1, second parallel group, Tuesday 17:30–19:00, B 420; this does not establish a new personal group selection.',
+    'Moodle confirms Mobile Interfaces assigned to the personal team for 2026-11-17. Topic-selection submission: 2026-10-14 23:26; participation submission: 2026-10-17 11:20; both ungraded in the snapshots.',
+    'U02, U03 and Figma proof show no submission in the 2026-10-20 snapshots. This is source evidence only; browser edits and deletions remain authoritative.',
+    'Provisional teaching plan: 2026-10-20 ideas/U02; 2026-10-27 information structure/U03. These teaching dates do not establish submission deadlines.',
+    'Source conflicts: group formation says Thursday 16.10.26 (weekday mismatch); introduction p. 14 duplicates Responsive Design and the 12 January presentation date; Moodle specifies Medienfassaden and 26 January instead. The provisional plan contains impossible 31.11.26; no replacement inferred.',
+    'Historical student examples are inspiration only and do not establish current assessment rules or track membership.',
+   ],
+   sources:[
+    source('../../media_design/00-course/introduction.pdf','Zahn Zug 1: pp. 4, 6, 9–18; assessment, project, provisional plan and conflicting dates','2026-10-20'),
+    source('../../media_design/00-course/exercise-welcome.pdf','p. 1: Zug 1 second parallel group, rooms, times and communication','2026-10-20'),
+    source('../../media_design/00-course/presentation-groups.pdf','p. 1: group deadline and advance presentation-PDF upload by Monday 19:00','2026-10-20'),
+    source('../../media_design/01-mobile-interfaces/seminars/topic-selection-moodle.pdf','pp. 1–2: eight minutes each, personal topic allocation, presentation days and submission confirmation','2026-10-20'),
+    source('../../media_design/00-course/project-groups.pdf','p. 1: individual U01, team work from U02, contradictory weekday/date','2026-10-20'),
+    source('../../media_design/00-course/participation-confirmation.pdf','p. 1: 20 October 20:00 deadline and personal submission snapshot','2026-10-20'),
+    source('../../media_design/00-course/figma-education.pdf','pp. 1–2: account and screenshot-proof instructions; relative countdown only','2026-10-20'),
+    source('../../media_design/02-research-analysis/seminars/u01/assignment.pdf','pp. 1–2: research requirements, explicit deadline, late ungraded submission','2026-10-20'),
+    source('../../media_design/03-idea-concept/seminars/u02/assignment.pdf','pp. 1–3: team concept, three personas and relative countdown; no submission','2026-10-20'),
+    source('../../media_design/04-information-architecture/seminars/u03/assignment.pdf','pp. 1–2: information architecture requirements, relative countdown; no submission','2026-10-20'),
+   ],
+  },
   2:{
    scope:'Track 2 lecture; practice rules are part of the overall assessment',
    actualAssessment:{
