@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "term": "Wintersemester 2026/27",
-  "generatedAt": "2026-10-20T20:36:07.118Z",
+  "generatedAt": "2026-10-20T20:42:35.338Z",
   "description": "Subject and track details for Medieninformatik B.Sc., winter term 2026/27. Teacher rules take priority over handbook rules only for the stated track.",
   "coverage": {
     "subjects": 9,
@@ -464,7 +464,7 @@
               "Provisional teaching plan: 2026-10-20 ideas/U02; 2026-10-27 information structure/U03. These teaching dates do not establish submission deadlines.",
               "Source conflicts: group formation says Thursday 16.10.26 (weekday mismatch); introduction p. 14 duplicates Responsive Design and the 12 January presentation date; Moodle specifies Medienfassaden and 26 January instead. The provisional plan contains impossible 31.11.26; no replacement inferred.",
               "Historical student examples are inspiration only and do not establish current assessment rules or track membership.",
-              "User-supplied U02/U03 decks imported 2026-10-20 name BHT Together as the app and KiezLink as the group. The concept connects BHT students and staff through small meetings on campus and in Wedding, with optional location access and no live people map. U03 uses four main areas: find meetings, create meetings, my meetings, and places/access. These student files do not confirm submission, grading or approved group allocation.",
+              "The user confirmed the group name as chai (lowercase) on 2026-10-20, formed from the first syllables of the three first names. Use chai for revised group work. User-supplied U02/U03 decks name BHT Together as the app and retain the earlier group label KiezLink. The concept connects BHT students and staff through small meetings on campus and in Wedding, with optional location access and no live people map. U03 uses four main areas: find meetings, create meetings, my meetings, and places/access. These student files do not confirm submission, grading or approved group allocation.",
               "User-reported lesson guidance (2026-10-20): prioritize active project work through December; less teacher contact is expected in January, without canceling confirmed presentations. Exercise discussions are approximately fortnightly, about 20 minutes per team; no recurring schedule is confirmed.",
               "At the lesson, group allocation was pending, with an update expected on the evening of 20 October or morning of 21 October. The team prefers the earliest exercise group after the seminar; this is not a confirmed allocation.",
               "Zahn's overcrowded course does not offer individual projects this semester.",
@@ -483,7 +483,7 @@
               },
               {
                 "file": "../../media_design/00-course/notes.md",
-                "scope": "User-supplied 2026-10-20 lesson notes: oral expectations, consistent formatting, retrospective revisions, late-work advice, approximate feedback cadence and pending group allocation; no change to written assessment weights or deadlines",
+                "scope": "User-supplied 2026-10-20 lesson notes: oral expectations, consistent formatting, retrospective revisions, late-work advice, approximate feedback cadence, pending group allocation and user-confirmed group name chai; no change to written assessment weights or deadlines",
                 "updatedAt": "2026-10-20"
               },
               {
